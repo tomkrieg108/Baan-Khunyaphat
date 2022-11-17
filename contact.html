@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- open sans fron google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome - 2022 kit version -->
+    <script
+      src="https://kit.fontawesome.com/912f539c83.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/script.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#">
+            <img src="img/Logo.jpg" alt="LOGO" class="nav-logo" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-link">
+              <a
+                class="activate-dropdown"
+                href="#"
+                data-target="dropdown-products"
+                >Products <i class="fas fa-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-link"><a href="#">Facilities</a></li>
+            <li class="nav-link">
+              <a class="activate-dropdown" href="#" data-target="dropdown-about"
+                >About Us
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-link"><a href="#">Reference</a></li>
+            <li class="nav-link"><a href="#">Contact Us</a></li>
+            <li class="nav-link nav-link-flag"><a href="#">Language</a></li>
+          </ul>
+        </nav>
+        <ul id="dropdown-products" class="dropdown-menu">
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 1</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 2</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 3 Here is a long link</a>
+          </li>
+        </ul>
+        <ul id="dropdown-about" class="dropdown-menu">
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Company Profile</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Our Developer</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="btn-mobile-nav btn-mobile-nav-open">
+        <i class="fas fa-bars"></i>
+      </button>
+      <button class="btn-mobile-nav btn-mobile-nav-close">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="sidenav"></div>
+    </header>
+
+    <main>
+      <section id="contact" class="py3">
+        <div class="banner phuket-2">
+          <h1>Contact Us</h1>
+        </div>
+
+        <div class="container pt2">
+          <div class="contact-top">
+            <div class="contact-iconbox">
+              <i class="fas fa-hotel fa-2x"></i>
+              <h5>Location</h5>
+              <p>5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
+            </div>
+            <div class="contact-iconbox">
+              <i class="fas fa-envelope fa-2x"></i>
+              <h5>Email</h5>
+              <p>baankhunyaphatphuket@gmail.com</p>
+            </div>
+            <div class="contact-iconbox">
+              <i class="fas fa-phone fa-2x"></i>
+              <h5>Telephone</h5>
+              <p>(+66) 076313123</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-bottom-section" class="py2">
+        <div class="container">
+          <div class="contact-bottom">
+            <div class="contact-formbox">
+              <h5>Please send a message</h5>
+              <form class="contact-form" action="./contact.php" method="post">
+                <div class="input-field">
+                  <label for="name" class="grey-text text-darken-2">Name</label>
+                  <input type="text" id="name" name="fname" />
+                </div>
+                <div class="input-field">
+                  <label for="email" class="grey-text text-darken-2"
+                    >Email</label
+                  >
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div class="input-field">
+                  <label for="message" class="grey-text text-darken-2"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="materialize-textarea"
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="btn"
+                  name="submit"
+                />
+              </form>
+            </div>
+            <div class="contact-mapbox">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3950.6671857005167!2d98.339068!3d8.0332082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050491d489002dd%3A0xb75ec07a7b0d5c9f!2z4Lia4LmJ4Liy4LiZ4LiE4Li44LiT4LiN4Lig4Lix4LiX4LijIOC5gOC4o-C4quC4i-C4tOC5gOC4lOC4meC4i-C5jOC5gOC4i-C4qg!5e0!3m2!1sth!2sth!4v1663394177024!5m2!1sth!2sth"
+                width="400"
+                height="400"
+                style="border: 1px solid #333"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Connect With Us</p>
+      <div class="social">
+        <a href="https://www.facebook.com/Preechaluck" target="_blank"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        <a
+          href="images/L_gainfriends_qr.png"
+          data-lightbox="qr-code"
+          data-title="Please use this QR code to connect with us on the LINE App."
+        >
+          <div class="line-icon">
+            <img
+              src="img/LINE_Brand_icon.png"
+              alt="Line App - logo"
+              class="responsive-img"
+            />
+          </div>
+        </a>
+      </div>
+      <p class="copywrite">
+        Copyright &copy; <span id="year"></span> - Baan Khunyaphat Villa and
+        Residences
+      </p>
+    </footer>
+  </body>
+</html>

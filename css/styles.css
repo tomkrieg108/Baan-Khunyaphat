@@ -441,6 +441,89 @@ h5 {
 }
 
 /* ------------------------------------------------------ 
+ CONTACT
+------------------------------------------------------  */
+.contact-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.contact-iconbox {
+  text-align: center;
+}
+
+.contact-iconbox i {
+  padding-bottom: 0.5rem;
+}
+.contact-iconbox h5 {
+  padding-bottom: 1rem;
+}
+
+#contact-bottom-section {
+  background-color: azure;
+}
+
+.contact-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.contact-formbox {
+  background-color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid var(--dark-color);
+  border-radius: 5px;
+  width: 400px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-formbox h5 {
+  margin-bottom: 1rem;
+}
+
+.contact-formbox .input-field {
+  margin-bottom: 1rem;
+}
+
+.contact-formbox .input-field label {
+  display: block;
+  color: var(--dark-color);
+  padding-bottom: 0.3rem;
+  text-align: left;
+}
+
+.contact-formbox .input-field input,
+.contact-formbox .input-field textarea {
+  width: 100%;
+  background-color: #fff;
+  color: var(--dark-color);
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.contact-formbox .input-field input:focus,
+.contact-formbox .input-field textarea:focus {
+  outline-color: var(--primary-color);
+}
+
+.contact-formbox .input-field textarea {
+  height: 90px;
+}
+
+/* ------------------------------------------------------ 
  FOOTER
 ------------------------------------------------------  */
 
@@ -536,6 +619,12 @@ h5 {
   .btn-mobile-nav-open {
     display: block;
     z-index: 100;
+  }
+
+  .contact-top,
+  .contact-bottom {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 }
 
