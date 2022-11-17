@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- open sans fron google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome - 2022 kit version -->
+    <script
+      src="https://kit.fontawesome.com/912f539c83.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/script.js"></script>
+    <title>Company Profile</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#">
+            <img src="img/Logo.jpg" alt="LOGO" class="nav-logo" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-link">
+              <a
+                class="activate-dropdown"
+                href="#"
+                data-target="dropdown-products"
+                >Products <i class="fas fa-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-link"><a href="#">Facilities</a></li>
+            <li class="nav-link">
+              <a class="activate-dropdown" href="#" data-target="dropdown-about"
+                >About Us
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-link"><a href="#">Reference</a></li>
+            <li class="nav-link"><a href="#">Contact Us</a></li>
+            <li class="nav-link nav-link-flag"><a href="#">Language</a></li>
+          </ul>
+        </nav>
+        <ul id="dropdown-products" class="dropdown-menu">
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 1</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 2</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Product 3 Here is a long link</a>
+          </li>
+        </ul>
+        <ul id="dropdown-about" class="dropdown-menu">
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Company Profile</a>
+          </li>
+          <li class="nav-link nav-link-dropdown">
+            <a href="#">Our Developer</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="btn-mobile-nav btn-mobile-nav-open">
+        <i class="fas fa-bars"></i>
+      </button>
+      <button class="btn-mobile-nav btn-mobile-nav-close">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="sidenav"></div>
+    </header>
+
+    <main>
+      <section id="company-profile" class="py3">
+        <div class="banner phuket-1">
+          <h1>Company Profile</h1>
+        </div>
+
+        <div class="container-narrow pt3">
+          <p class="py1">
+            Baan Khunyaphat Villas & Residences Co., Ltd. was established in
+            2021, based on the concept of "Your new way of living".
+          </p>
+          <p class="py1">
+            Our houses are designed to meet the needs of people of all ages,
+            while giving them the freedom to customize the living space from the
+            existing designs and infrastructure according to their own needs.
+          </p>
+          <p class="py1">
+            In addition, environmental technologies such as solar cell systems
+            have been introduced, and we provide installation services to
+            customers interested these systems.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Connect With Us</p>
+      <div class="social">
+        <a href="https://www.facebook.com/Preechaluck" target="_blank"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        <a
+          href="images/L_gainfriends_qr.png"
+          data-lightbox="qr-code"
+          data-title="Please use this QR code to connect with us on the LINE App."
+        >
+          <div class="line-icon">
+            <img
+              src="img/LINE_Brand_icon.png"
+              alt="Line App - logo"
+              class="responsive-img"
+            />
+          </div>
+        </a>
+      </div>
+      <p class="copywrite">
+        Copyright &copy; <span id="year"></span> - Baan Khunyaphat Villa and
+        Residences
+      </p>
+    </footer>
+  </body>
+</html>
