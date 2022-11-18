@@ -1,3 +1,5 @@
 .vscode/
 info/
-img/
+images/
+css/lightbox.min.css
+js/lightbox.min.js

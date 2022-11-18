@@ -1,0 +1,120 @@
+<?php
+  
+  $modal_message = '';
+
+  if(filter_has_var(INPUT_POST, 'submit'))  {
+    $name = strip_tags(trim($_POST["fname"]));
+    $email = strip_tags(trim($_POST["email"]));
+    $message = strip_tags(trim($_POST["message"]));
+
+    $recipient = "tomkrieg108@gmail.com";
+    $subject = "Message received $name via website";
+    $content = $message;
+    $header = "From: $name";
+
+    $email_valid = filter_var($email,FILTER_VALIDATE_EMAIL); 
+    if(!$email_valid) {
+      $modal_msg = 'Please enter a valid email address.';
+    }
+    else {
+     if(mail($recipient, $subject, $content, $header)) {
+        $modal_message = 'success';
+     }else {
+      $modal_message = 'fail';
+     }
+    }
+  }
+?>
+
+<?php require_once './head.php' ?>
+<?php require_once './nav.php' ?>
+
+    <main>
+      <section id="contact" class="py3">
+        <div class="banner phuket-2">
+          <h1>Contact Us</h1>
+        </div>
+
+        <div class="container pt2">
+          <div class="contact-top">
+            <div class="contact-iconbox">
+              <i class="fas fa-hotel fa-2x"></i>
+              <h5>Location</h5>
+              <p>5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
+            </div>
+            <div class="contact-iconbox">
+              <i class="fas fa-envelope fa-2x"></i>
+              <h5>Email</h5>
+              <p>baankhunyaphatphuket@gmail.com</p>
+            </div>
+            <div class="contact-iconbox">
+              <i class="fas fa-phone fa-2x"></i>
+              <h5>Telephone</h5>
+              <p>(+66) 076313123</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-bottom-section" class="py2">
+        <div class="container">
+          <div class="contact-bottom">
+            <div class="contact-formbox">
+              <h5>Please send a message</h5>
+              <form class="contact-form" action="./contact.php" method="post">
+                <div class="input-field">
+                  <label for="name" class="grey-text text-darken-2">Name</label>
+                  <input type="text" id="name" name="fname" />
+                </div>
+                <div class="input-field">
+                  <label for="email" class="grey-text text-darken-2"
+                    >Email</label
+                  >
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div class="input-field">
+                  <label for="message" class="grey-text text-darken-2"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="materialize-textarea"
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="btn"
+                  name="submit"
+                />
+              </form>
+            </div>
+            <div class="contact-mapbox">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3950.6671857005167!2d98.339068!3d8.0332082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050491d489002dd%3A0xb75ec07a7b0d5c9f!2z4Lia4LmJ4Liy4LiZ4LiE4Li44LiT4LiN4Lig4Lix4LiX4LijIOC5gOC4o-C4quC4i-C4tOC5gOC4lOC4meC4i-C5jOC5gOC4i-C4qg!5e0!3m2!1sth!2sth!4v1663394177024!5m2!1sth!2sth"
+                width="400"
+                height="400"
+                style="border: 1px solid #333"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal hidden">
+      <button class="btn__close-modal">&times;</button>
+      <h3 class="modal__title">Title</h3>
+      <p class="modal__body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+        necessitatibus distinctio rerum cupiditate quidem exercitationem quia
+        mollitia, cumque doloribus tempora.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+<?php require_once './footer.php' ?>

@@ -1,3 +1,4 @@
+////////////////////////////////
 // DROPDOWN MENU
 const body = document.querySelector("body");
 const main = document.querySelector("main");
@@ -35,6 +36,7 @@ body.addEventListener("click", function (e) {
   deactivateDropdown();
 });
 
+////////////////////////////////
 //MOBILE NAV
 const btnMobileNavOpen = document.querySelector(".btn-mobile-nav-open");
 const btnMobileNavClose = document.querySelector(".btn-mobile-nav-close");
@@ -64,6 +66,7 @@ btnMobileNavClose.addEventListener("click", function (e) {
   // main.style.overflow = "auto";
 });
 
+////////////////////////////////
 //IMAGE SLIDER FOR HERO SECTION
 const slideContainer = document.querySelector(".slider-container");
 const slides = document.querySelectorAll(".slide");
@@ -115,3 +118,37 @@ const switchSlide = function () {
 timer = setInterval(switchSlide, 5000);
 
 createDots();
+
+////////////////////////////////
+// MODAL
+//The modal box
+const modal = document.querySelector(".modal");
+console.log("modal: ", modal);
+
+//Button on the modal (x) to close the modal
+const btnCloseModal = document.querySelector(".btn__close-modal");
+console.log("close btn: ", btnCloseModal);
+
+//Document overlay visible when modal is showing
+const overlay = document.querySelector(".overlay");
+console.log("overlay: ", overlay);
+
+export const openModal = function (title, body) {
+  if (body === "") return;
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+};
+
+const closeModal = function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
+
+btnCloseModal.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModal();
+  }
+});
