@@ -24,7 +24,6 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 
-    <script defer src="js/script.js"></script>
     <title>Baan Khunyaphat V2</title>
   </head>
   <body>
