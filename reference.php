@@ -4,7 +4,7 @@
 <main>
   <section id="reference" class="py3">
     <div class="banner phuket-3">
-      <h1>Product Reference</h1>
+      <h1 class="heading-1">Product Reference</h1>
     </div>
 
     <div class="container-wide pt1">
@@ -13,7 +13,7 @@
           <img src="images/1-1-opt/img-bk-1.jpg" alt="" />
           <figcaption class="gallery-caption">
             <p>Here is the caption</p>
-            <a class="btn" href="#">See More</a>
+            <a class="btn btn-small" href="#">See More</a>
           </figcaption>
         </figure>
 
@@ -21,7 +21,7 @@
           <img src="images/1-1-opt/img-bk-2.jpg" alt="" />
           <figcaption class="gallery-caption">
             <p>Here is the caption</p>
-            <a class="btn" href="#">See More</a>
+            <a class="btn btn-small" href="#">See More</a>
           </figcaption>
         </figure>
 
@@ -29,7 +29,7 @@
           <img src="images/1-1-opt/img-bk-3.jpg" alt="" />
           <figcaption class="gallery-caption">
             <p>Here is the caption</p>
-            <a class="btn" href="#">See More</a>
+            <a class="btn btn-small" href="#">See More</a>
           </figcaption>
         </figure>
 

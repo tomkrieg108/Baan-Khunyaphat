@@ -40,7 +40,7 @@ dotContainer.addEventListener("click", function (e) {
   activeSlide = e.target.dataset.id;
   setActiveSlide();
   clearInterval(timer);
-  timer = setInterval(switchSlide, 5000);
+  timer = setInterval(switchSlide, 7000);
 });
 
 const switchSlide = function () {
@@ -49,6 +49,6 @@ const switchSlide = function () {
   setActiveSlide();
 };
 
-timer = setInterval(switchSlide, 5000);
+timer = setInterval(switchSlide, 7000);
 
 createDots();

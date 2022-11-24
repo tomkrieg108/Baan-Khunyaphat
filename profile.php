@@ -4,7 +4,7 @@
 <main>
   <section id="company-profile" class="py3">
     <div class="banner phuket-1">
-      <h1>Company Profile</h1>
+      <h1 class="heading-1">Company Profile</h1>
     </div>
 
     <div class="container-narrow pt3">

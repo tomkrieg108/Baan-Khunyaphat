@@ -36,25 +36,25 @@
 <main>
   <section id="contact" class="py3">
     <div class="banner phuket-2">
-      <h1>Contact Us</h1>
+      <h1 class="heading-1">Contact Us</h1>
     </div>
 
     <div class="container pt2">
       <div class="contact-top">
         <div class="contact-iconbox">
-          <i class="fas fa-hotel fa-2x"></i>
-          <h5>Location</h5>
-          <p>5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
+          <ion-icon class="feature-icon" name="location-outline"></ion-icon>
+          <h3 classs="heading-3">Location</h3>
+          <p class="lead">5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
         </div>
         <div class="contact-iconbox">
-          <i class="fas fa-envelope fa-2x"></i>
-          <h5>Email</h5>
-          <p>baankhunyaphatphuket@gmail.com</p>
+          <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
+          <h3 classs="heading-3">Email</h3>
+          <p class="lead">baankhunyaphatphuket@gmail.com</p>
         </div>
         <div class="contact-iconbox">
-          <i class="fas fa-phone fa-2x"></i>
-          <h5>Telephone</h5>
-          <p>(+66) 076313123</p>
+          <ion-icon class="feature-icon" name="call-outline"></ion-icon>
+          <h3 classs="heading-3">Telephone</h3>
+          <p class="lead">(+66) 076313123</p>
         </div>
       </div>
     </div>

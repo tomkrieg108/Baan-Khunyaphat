@@ -23,54 +23,52 @@
     </div>
 
     <div class="dots"></div>
-  </section>
 
-  <section class="section1">
-    <div class="container">
-      <h1>More Content</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-        magnam hic, in ratione dolorem provident dolore deserunt facere
-        velit quia doloremque magni accusamus rem possimus ad dicta numquam
-        illo suscipit quisquam illum incidunt minima impedit autem. Ratione
-        delectus ad vel suscipit eius deserunt totam adipisci animi
-        laboriosam consectetur impedit, dicta vitae voluptates dolorem
-        dolore ullam, itaque at, quidem corrupti beatae qui sunt rem. Non
-        magni modi neque exercitationem laboriosam reiciendis. Illum quas,
-        est sed itaque dolore cumque exercitationem doloribus id vero odio,
-        perferendis, quaerat nesciunt sunt nam omnis pariatur deleniti!
-        Temporibus dolore veniam, aspernatur sequi tempore odit facilis hic
-        placeat tenetur quo possimus repellat et numquam necessitatibus
-        expedita repellendus repudiandae asperiores. Reprehenderit eaque aut
-        ullam excepturi ratione nostrum alias distinctio animi ut dolor,
-        adipisci ipsa culpa aliquid minus quidem rem placeat eum
-        consequuntur magni vero doloribus nulla id necessitatibus autem.
-        Inventore exercitationem officiis sunt neque, deserunt facere
-        accusantium labore quisquam recusandae. Maiores nihil dolorem culpa
-        in ullam nostrum beatae excepturi odio non voluptatem aspernatur
-        odit sed, saepe consectetur. Fugiat alias ea nesciunt expedita
-        velit, mollitia numquam iure unde rerum natus obcaecati deserunt
-        tempora? Odit similique ea nemo culpa id illo ipsum dolorem totam,
-        nam tenetur eveniet earum esse quibusdam unde.
-      </p>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-        doloribus, ad praesentium pariatur impedit perferendis cupiditate
-        obcaecati excepturi velit consequatur aliquam non ullam libero
-        aspernatur explicabo nobis eveniet minus eaque, laudantium
-        inventore! Optio fuga minima est dolores blanditiis officia eaque!
-        Id eius animi assumenda? Quia praesentium quisquam veritatis,
-        incidunt animi numquam ea neque, quo nulla quos adipisci magnam
-        dolorum doloribus nesciunt quam aspernatur sit suscipit tempora.
-        Ipsa iste doloribus repellendus et asperiores cum, voluptatum fugiat
-        consequatur exercitationem dolorem corrupti nisi esse officiis
-        reiciendis. Exercitationem voluptates iure corrupti quam culpa
-        praesentium quos deleniti pariatur minus impedit. Ipsum aliquam
-        minus a. Voluptatum!
-      </p>
+    <div class="hero-content">
+      <h3 class = "heading-3">Baan Khunyaphat Villas and Residences</h3>
+      <h1 class = "heading-1">Your new way of living in Phuket</h1>
+      <a class="btn btn-large" href="#">Discover More</a>    
     </div>
   </section>
+
+  <section id=home-section1>
+    <div class="container">
+      <div class="intro">
+        <div class="intro-text">
+          <h3 class = "heading-3">Welcome to Baan Khunyaphat Villas and Residences</h3>
+          <p class="lead">We develop high quality, adaptable and eco-friendly properties for sale in the pristine heart of Phuket, starting from 4 just Million Baht. </p>
+          <p class="lead">Our houses are suitable for everyone. We design houses to meet the lifestyle of people from all age groups.</p>
+        </div>
+        <div class="intro-actions">
+        <h3 class = "heading-3">Virtual Tour</h3>
+        <p class="lead">Take a virtual 3D tour of one of our properties to view the interior layout, floorplan and measurments</p>
+        <a class="btn btn-large" href="https://mp.my360int.com/tour/baan-khunyaphat" target="_blank">Take Tour</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home-section2">
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="swap-horizontal-outline"></ion-icon>
+          <h3 class = "heading-3">Adaptable</h3>
+          <p class="lead">Freedom to live your way.  Adapt the layout according to your own needs and preferences.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+          <h3 class = "heading-3">Eco Friendly</h3>
+          <p class="lead">Our houses are designed for the future. Use clean energy from solar cells and save on energy costs.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="image-outline"></ion-icon>
+          <h3 class = "heading-3">Idyllic Location</h3>
+          <p class="lead">Located in a tranquil and semi-rural area, while also offering easy access to all ammenities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <?php require_once './footer.php' ?>
