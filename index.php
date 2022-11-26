@@ -2,6 +2,7 @@
 <?php require_once './nav.php' ?>
 
 <main>
+
   <section class="hero">
     <div class="slider-container">
       <div
@@ -15,19 +16,26 @@
 
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/img-bk-1.jpg')"
+        style="background-image: url('images/16-9-opt/1RGB1.jpg')"
       ></div>
 
-      <div class="slide" style=" background-image:
-      url('images/16-9-opt/img-bk-2.jpg');" " >
+      <div 
+        class="slide" 
+        style=" background-image: url('images/16-9-opt/1RGB2.jpg')">
     </div>
 
     <div class="dots"></div>
 
     <div class="hero-content">
       <h3 class = "heading-3">Baan Khunyaphat Villas and Residences</h3>
-      <h1 class = "heading-1">Your new way of living in Phuket</h1>
-      <a class="btn btn-large" href="#">Discover More</a>    
+      <h1 class = "heading-1">Your new way of living</h1>
+      <p class="lead">Offering high quality, affordable properties for sale in Phuket</p>
+      <a id="btn-discover-more" class="btn" href="#home-section1">Discover More  &darr;
+        <!-- <ion-icon name="arrow-down-outline"></ion-icon> -->
+      </a>    
+      <a class="btn btn-outline" href="contact.php">Arrange Visit  &rarr;
+        <!-- <ion-icon name="arrow-forward-outline"></ion-icon> -->
+      </a>  
     </div>
   </section>
 

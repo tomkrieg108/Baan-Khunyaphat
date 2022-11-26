@@ -1,11 +1,21 @@
+<?php require_once 'include/language/select.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content="Baan Khunyaphat Villas and Residences. We develop high quality, adaptable and eco-friendly properties for sale in Phuket, at an affordable price" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- open sans fron google fonts -->
+    <!-- favicons -->
+    <link rel="icon" href="images/logo/favicon.png" />
+    <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- open sans from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,6 +31,6 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Baan Khunyaphat V2</title>
+    <title>Baan Khunyaphat Villas and Residences</title>
   </head>
   <body>

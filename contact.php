@@ -89,7 +89,7 @@
             <input
               type="submit"
               value="Send Message"
-              class="btn"
+              class="btn btn-large"
               name="submit"
             />
           </form>

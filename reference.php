@@ -10,52 +10,77 @@
     <div class="container-wide pt1">
       <div class="gallery">
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-bk-1.jpg" alt="" />
+          <img src="images/1-1-opt/1RGB1.jpg" alt="Living Room" />
           <figcaption class="gallery-caption">
-            <p>Here is the caption</p>
-            <a class="btn btn-small" href="#">See More</a>
+            <p>Living Room</p>
+            <a class="btn btn-small" href="#">View More</a>
           </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-bk-2.jpg" alt="" />
+          <img src="images/1-1-opt/1RGB2.jpg" alt="Bedroom" />
           <figcaption class="gallery-caption">
-            <p>Here is the caption</p>
-            <a class="btn btn-small" href="#">See More</a>
+            <p>Bedroom</p>
+            <a class="btn btn-small" href="#">View More</a>
           </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-bk-3.jpg" alt="" />
+          <img src="images/1-1-opt/1RGB3.jpg" alt="Bathroom" />
           <figcaption class="gallery-caption">
-            <p>Here is the caption</p>
-            <a class="btn btn-small" href="#">See More</a>
+            <p>Bathroom</p>
+            <a class="btn btn-small" href="#">View More</a>
           </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-1.jpg" alt="Photo of Phuket" />
+          <img src="images/1-1-opt/1RGB4.jpg" alt="Living Room" />
+          <figcaption class="gallery-caption">
+            <p>Living Room</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-2.jpg" alt="Photo of Phuket" />
+          <img src="images/1-1-opt/1RGB5.jpg" alt="Bedroom" />
+          <figcaption class="gallery-caption">
+            <p>Bedroom</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
+        </figure>
+  
+        <figure class="gallery-item">
+          <img src="images/1-1-opt/1RGB6.jpg" alt="Kitchen" />
+          <figcaption class="gallery-caption">
+            <p>Kitchen</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-3.jpg" alt="Photo of Phuket" />
+          <img src="images/1-1-opt/1RGB7.jpg" alt="" />
+          <figcaption class="gallery-caption">
+            <p>Dining Room</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-5.jpg" alt="Photo of Phuket" />
+          <img src="images/1-1-opt/House_front.jpg" alt="Front of house" />
+          <figcaption class="gallery-caption">
+            <p>Front of house</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/1-1-opt/img-6.jpg" alt="Photo of Phuket" />
+          <img src="images/1-1-opt/House_side.jpg" alt="Side of house" />
+          <figcaption class="gallery-caption">
+            <p>Side of House</p>
+            <a class="btn btn-small" href="#">View More</a>
+          </figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="images/1-1-opt/img-7.jpg" alt="Photo of Phuket" />
-        </figure>
       </div>
     </div>
   </section>

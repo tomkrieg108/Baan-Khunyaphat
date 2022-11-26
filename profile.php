@@ -7,6 +7,9 @@
       <h1 class="heading-1">Company Profile</h1>
     </div>
 
+    <!-- <div id="test" class="test-red">
+    </div> -->
+
     <div class="container-narrow pt3">
       <p class="py1">
         Baan Khunyaphat Villas & Residences Co., Ltd. was established in
