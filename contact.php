@@ -34,26 +34,26 @@
 <?php require_once './nav.php' ?>
 
 <main>
-  <section id="contact" class="py3">
+  <section id="contact" class="pt3">
     <div class="banner phuket-2">
       <h1 class="heading-1">Contact Us</h1>
     </div>
 
-    <div class="container pt2">
+    <div class="container">
       <div class="contact-top">
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="location-outline"></ion-icon>
-          <h3 classs="heading-3">Location</h3>
+          <h4 class="subheading">Location</h4>
           <p class="lead">5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
         </div>
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
-          <h3 classs="heading-3">Email</h3>
+          <h4 class="subheading">Email</h4>
           <p class="lead">baankhunyaphatphuket@gmail.com</p>
         </div>
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="call-outline"></ion-icon>
-          <h3 classs="heading-3">Telephone</h3>
+          <h4 class="subheading">Telephone</h4>
           <p class="lead">(+66) 076313123</p>
         </div>
       </div>
@@ -64,7 +64,7 @@
     <div class="container">
       <div class="contact-bottom">
         <div class="contact-formbox">
-          <h5>Please send a message</h5>
+          <h4 class="subheading">Please send us a message</h4>
           <form class="contact-form" action="./contact.php" method="post">
             <div class="input-field">
               <label for="name" class="grey-text text-darken-2">Name</label>
@@ -97,9 +97,6 @@
         <div class="contact-mapbox">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3950.6671857005167!2d98.339068!3d8.0332082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050491d489002dd%3A0xb75ec07a7b0d5c9f!2z4Lia4LmJ4Liy4LiZ4LiE4Li44LiT4LiN4Lig4Lix4LiX4LijIOC5gOC4o-C4quC4i-C4tOC5gOC4lOC4meC4i-C5jOC5gOC4i-C4qg!5e0!3m2!1sth!2sth!4v1663394177024!5m2!1sth!2sth"
-            width="400"
-            height="400"
-            style="border: 1px solid #333"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

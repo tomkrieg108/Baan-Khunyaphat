@@ -113,34 +113,20 @@ btnMobileNav.addEventListener("click", function (e) {
 });
 
 // Smooth scrolling - click on 'discover more' button
+//THIS SHOULD ONLY BE INCLUDED IN INDEX.PHP SINCE ONLY IT HAS btnDiscover
 const btnDiscover = document.querySelector("#btn-discover-more");
 const homeSection1 = document.querySelector("#home-section1");
-const s1coords = homeSection1.getBoundingClientRect();
+
 btnDiscover.addEventListener("click", function (e) {
   e.preventDefault();
-  // const id = e.target.getAttribute("href");
-  // document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-
+  const s1coords = homeSection1.getBoundingClientRect();
   window.scrollTo({
+    // This gives the absolute position of the element relative to the top left of the doc
     left: s1coords.left + window.pageXOffset,
-    top: s1coords.top + window.pageYOffset + 80,
+    top: s1coords.top + window.pageYOffset - 80,
     behavior: "smooth",
   });
 });
-
-//old way
-//const s1coords = section1.getBoundingClientRect();
-// Scrolling
-// window.scrollTo(
-//   s1coords.left + window.pageXOffset,
-//   s1coords.top + window.pageYOffset
-// );
-
-// window.scrollTo({
-//   left: s1coords.left + window.pageXOffset,
-//   top: s1coords.top + window.pageYOffset,
-//   behavior: 'smooth',
-// });
 
 const testDiv = document.querySelector("#test");
 

@@ -7,7 +7,7 @@
       <h1 class="heading-1">Product Reference</h1>
     </div>
 
-    <div class="container-wide pt1">
+    <div class="container pt1">
       <div class="gallery">
         <figure class="gallery-item">
           <img src="images/1-1-opt/1RGB1.jpg" alt="Living Room" />
