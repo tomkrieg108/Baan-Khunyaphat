@@ -87,6 +87,7 @@
 <?php require_once './footer.php' ?>
 
 <script src="js/image-slider.js"></script>
+<script src="js/smooth-scrolling.js"></script>
 
 </body>
 </html>

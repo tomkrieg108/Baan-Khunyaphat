@@ -460,7 +460,7 @@ ul {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  z-index: 100;
+  z-index: 3;
 }
 
 .dots__dot {
@@ -915,7 +915,7 @@ ul {
     width: 20rem;
     background-color: var(--header-color);
     /* transition: transform 0.3s ease-in-out; */
-    opacity: 0.9;
+    opacity: 1;
     z-index: 10;
     overflow-y: scroll;
     border: 1px solid var(--primary-color);
