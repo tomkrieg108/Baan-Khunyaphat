@@ -14,13 +14,13 @@
           </a>
           <ul id="dropdown-products" class="dropdown-menu">
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Product 1</a>
+              <a href="#">Phase 1, 2</a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Product 2</a>
+              <a href="#">Phase 3</a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Product 3 Here is a long link</a>
+              <a href="#">Villas</a>
             </li>
           </ul>
         </li>
@@ -55,15 +55,9 @@
                 </a>
               </li>
               <li class="nav-link nav-link-dropdown flag">
-                <a href=<?php echo $_SERVER['PHP_SELF'] . '?lang=rus' ?>>
-                  <img src=<?php FlagImg('rus') ?> height=40 alt="Russian flag">
-                  <p>Русский</p>
-                </a>
-              </li>
-              <li class="nav-link nav-link-dropdown flag">
-                <a href=<?php echo $_SERVER['PHP_SELF'] . '?lang=chi' ?>>
-                <img src=<?php FlagImg('chi') ?> height=40 alt="Chinese flag">
-                <p>中文</p>
+                <a href=<?php echo $_SERVER['PHP_SELF'] . '?lang=thai' ?>>
+                  <img src=<?php FlagImg('thai') ?> height=40 alt="Thai flag">
+                  <p>ไทย</p>
                 </a>
               </li>
           </ul>
@@ -78,5 +72,4 @@
     <i class="fas fa-times"></i>
   </button>
 
-  <!-- <div class="sidenav"></div> -->
 </header>
