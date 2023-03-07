@@ -11,14 +11,6 @@
   --header-color-dk1: #25b9f4;
   --header-color-dk2: #0fb2f2;
 
-  /* --primary-color: #cf711f;
-  --primary-color-dk1: #ba661c;
-  --primary-color-dk2: #a65a19;
-  --primary-color-lt1: #d47f35;
-  --primary-color-lt2: #d98d4c;
-  --primary-color-lt3: #dd9c62;
-  --primary-color-lt4: #e2aa79; */
-
   --primary-color: #ffd700;
   --primary-color-dk1: #e6c200;
   --primary-color-dk2: #ccac00;
@@ -31,8 +23,7 @@
   --primary-color-lt4: #ffe766;
 
   --secondary-color: #fdf2e9;
-  /* --secondary-color: #fffbe6; */
-
+  
   --light-color: #fcfcfc;
   --med-color: #ddd;
   --dark-color: #333;
@@ -55,7 +46,7 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   body {
     font-size: 14px;
   }
@@ -75,9 +66,13 @@ ul {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
+.container-narrow {
+  width: 70%;
+}
+
+@media screen and (max-width: 1050px) {
   container {
-    width: 90%;
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -95,39 +90,47 @@ ul {
  TYPEOGRAPHY
 ------------------------------------------------------  */
 .heading-1 {
-  font-weight: 500;
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 3.5rem;
   line-height: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .heading-1 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.7rem;
+    line-height: 2.5rem;
   }
 }
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .heading-1 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     line-height: 1.8rem;
     margin-bottom: 1.4rem;
   } 
-} */
+}
 
 .heading-2 {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.heading-3 {
-  font-weight: 600;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
-  margin-bottom: 1.7rem;
+
+@media screen and (max-width: 1050px) {
+  .heading-2 {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+  }
 }
 
-@media screen and (max-width: 1000px) {
+.heading-3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1050px) {
   .heading-3 {
     font-size: 1.2rem;
     line-height: 1.5rem;
@@ -146,6 +149,10 @@ ul {
   font-size: 1.05rem;
   line-height: 1.6rem;
   margin-bottom: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* ------------------------------------------------------ 
@@ -180,7 +187,9 @@ ul {
 .py3 {
   padding: 3rem 0 !important;
 }
-
+.py4 {
+  padding: 4rem 0 !important;
+}
 .px0 {
   padding: 0 0.5rem !important;
 }
@@ -251,7 +260,7 @@ ul {
 ------------------------------------------------------  */
 
 .banner {
-  height: 35vh;
+  height: 32vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -429,6 +438,7 @@ ul {
   transition: 0.5s;
 }
 
+/* todo - isn't needed because there's a 'hero-conent' class that acts as an overlay that can be darkened */
 .slider-container::before {
   content: "";
   position: absolute;
@@ -488,7 +498,7 @@ ul {
   position: absolute;
   width: 70%;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   color: #fff;
   border-radius: 15px;
@@ -496,30 +506,41 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
+  /* Make hole screen darkened */
+  /* top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translate(0%, 0%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
-.hero-content .heading-3 {
+/* .hero-content .heading-3 {
   margin-bottom: 0.8rem;
-}
+} */
 
-.hero-content .heading-1 {
+/* .hero-content .heading-1 {
   margin-bottom: 0.8rem;
-}
-.hero-content .lead {
+} */
+/* .hero-content .lead {
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
+} */
 
 .hero-content ion-icon {
   font-size: 1.3rem;
   padding-left: 7px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1050px) {
   .hero-content {
     width: 80%;
   }
-}
+} */
 
 @media screen and (max-width: 700px) {
   .hero-content {
@@ -556,7 +577,8 @@ ul {
 
 .intro {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 3fr 2fr;
   gap: 3rem;
 }
 
@@ -888,7 +910,7 @@ ul {
 ------------------------------------------------------  */
 
 /* Responsive Nav */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .btn-mobile-nav {
     display: inline-block;
     z-index: 100;
@@ -975,7 +997,7 @@ ul {
 }
 
 /* home - Feature icons  and contact */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -987,7 +1009,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .profile-content {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -997,7 +1019,7 @@ ul {
 }
 
 /* home - Feature icons  and contact */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .contact-top,
   .contact-bottom {
     grid-template-columns: repeat(1, 1fr);
@@ -1006,7 +1028,7 @@ ul {
 }
 
 /* Photo gallery */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1027,7 +1049,7 @@ ul {
 }
 
 .test-blue {
-  /* important overrides everything including any media queries and direct styles set in JS */
+  /* important overrides everything including any media queries and inline styles set in JS */
   /* background-color: blue !important; */
   background-color: blue;
 }

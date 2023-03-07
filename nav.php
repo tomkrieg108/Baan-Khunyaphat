@@ -5,6 +5,7 @@
         <img src="images/logo/Logo-400.png" alt="LOGO" class="nav-logo" />
       </a>
       <ul class="nav-list">
+      <li class="nav-link"><a href="index.php">Home</ion-icon></a></li>
         <li class="nav-link">
           <a
             class="activate-dropdown"
@@ -14,13 +15,13 @@
           </a>
           <ul id="dropdown-products" class="dropdown-menu">
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Phase 1, 2</a>
+              <a href="product-phase-1-to-3.php">Phase 1, 2 & 3</a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Phase 3</a>
+              <a href="#">Phase 4</a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Villas</a>
+              <a href="product-villas.php">Pool Villas</a>
             </li>
           </ul>
         </li>
@@ -34,7 +35,7 @@
               <a href="profile.php">Company Profile</a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="test.php">Our Developer</a>
+              <a href="#">Our Developer</a>
             </li>
           </ul>
         </li>

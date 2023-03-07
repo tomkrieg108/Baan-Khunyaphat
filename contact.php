@@ -8,8 +8,9 @@
     $email = strip_tags(trim($_POST["email"]));
     $message = strip_tags(trim($_POST["message"]));
 
-    $recipient = "tomkrieg108@gmail.com";
-    $subject = "Message received $name via website";
+    // $recipient = "tomkrieg108@gmail.com";
+    $recipient = "baankhunyaphatphuket@gmail.com";
+    $subject = "Message received from $name via website";
     $content = $message;
     $header = "From: $name";
 
@@ -34,9 +35,9 @@
 <?php require_once './nav.php' ?>
 
 <main>
-  <section id="contact" class="pt3">
+  <section id="contact" class="py3">
     <div class="banner phuket-2">
-      <h1 class="heading-1">Contact Us</h1>
+      <h1 class="heading-2 pt3">Contact Us</h1>
     </div>
 
     <div class="container">

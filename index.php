@@ -11,25 +11,20 @@
       ></div>
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/House_side.jpg')"
+        style="background-image: url('images/16-9-opt/FN001.jpg')"
       ></div>
 
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/1RGB1.jpg')"
+        style="background-image: url('images/16-9-opt/FN002.jpg')"
       ></div>
-
-      <div 
-        class="slide" 
-        style=" background-image: url('images/16-9-opt/1RGB2.jpg')">
-    </div>
 
     <div class="dots"></div>
 
     <div class="hero-content">
-      <h3 class = "heading-3">Baan Khunyaphat Villas and Residences</h3>
+      <h3 class = "heading-2">Baan Khunyaphat Villas and Residences</h3>
       <h1 class = "heading-1">Your new way of living</h1>
-      <p class="lead">Offering high quality, affordable properties for sale in Phuket</p>
+      <p class="heading-3">Offering high quality, affordable properties for sale in Phuket</p>
 
       <div class="hero-buttons">
         <a id="btn-discover-more" class="btn" href="#home-section1">Learn More  &darr;</a>    
@@ -43,8 +38,14 @@
       <div class="intro">
         <div class="intro-text">
           <h3 class = "heading-3">Welcome to Baan Khunyaphat Villas and Residences</h3>
-          <p class="lead">We develop high quality, adaptable and eco-friendly properties for sale in the pristine heart of Phuket, starting from 4 just Million Baht. </p>
-          <p class="lead">Our houses are suitable for everyone. We design houses to meet the lifestyle of people from all age groups and backgrounds.</p>
+
+          <p class="lead">
+            We are pleased to announce that Baan Khunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.   The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
+          </p>
+
+          <p class="pb1">
+            The island, nicknamed the pearl of the Andaman sea, provides modern services and an international airport. It is adorned with beautiful beaches, large mountains lush tropical vegetation. Our project will be situated near popular attractions such as Naiyang beach, Layan beach and Robinson Shopping Mall.
+          </p>
         </div>
         <div class="intro-actions">
           <h3 class = "heading-3">Virtual Tour</h3>

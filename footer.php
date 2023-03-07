@@ -15,7 +15,7 @@
     </a> 
   </div>
   <p class="copywrite">
-    Copyright &copy; <span id="year"></span> - Baan Khunyaphat Villa and
+    Copyright &copy; <?php echo date("Y"); ?> - Baan Khunyaphat Villa and
     Residences
   </p>
 </footer>
