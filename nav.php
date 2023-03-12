@@ -5,7 +5,7 @@
         <img src="images/logo/Logo-400.png" alt="LOGO" class="nav-logo" />
       </a>
       <ul class="nav-list">
-      <li class="nav-link"><a href="index.php">Home</ion-icon></a></li>
+      <li class="nav-link"><a href="index.php"><?php echo $nav['home']?></ion-icon></a></li>
         <li class="nav-link">
           <a
             class="activate-dropdown"
@@ -15,13 +15,13 @@
           </a>
           <ul id="dropdown-products" class="dropdown-menu">
             <li class="nav-link nav-link-dropdown">
-              <a href="product-phase-1-to-3.php">Phase 1, 2 & 3</a>
+              <a href="product-house.php"><?php echo $nav['house']?></a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Phase 4</a>
+              <a href="product-villa-a.php"><?php echo $nav['villa-a']?></a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="product-villas.php">Pool Villas</a>
+              <a href="product-villa-b.php"><?php echo $nav['villa-b']?></a>
             </li>
           </ul>
         </li>
@@ -32,10 +32,10 @@
           </a>
           <ul id="dropdown-about" class="dropdown-menu">
             <li class="nav-link nav-link-dropdown">
-              <a href="profile.php">Company Profile</a>
+              <a href="profile.php"><?php echo $nav['profile']?></a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#">Our Developer</a>
+              <a href="#"><?php echo $nav['developer']?></a>
             </li>
           </ul>
         </li>

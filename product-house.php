@@ -4,12 +4,12 @@
 <main>
   <section id="reference" class="py3">
     <div class="banner phuket-3">
-      <h1 class="heading-2 pt3">3 Bedroom Homes (Phase 1 to 3)</h1>
+      <h1 class="heading-2 pt3">Detached Home</h1>
     </div>
 
     <div class="container container-narrow text-center pt2">
       <p class="pb1">
-      We are offering for sale 3 Bedrooms homes which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon. 
+      We are offering for sale 3 Bedrooms detached homes which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon. 
       </p>
       <p class="pb1">
       We are surrounded with the best architects and interior designers to develop the concept of our resort hotel. We also have the support of The KENKOON BRAND, a contemporary furniture brand that skillfully uses teak wood, marble and steel.
