@@ -35,12 +35,18 @@
 <?php require_once './nav.php' ?>
 
 <main>
-  <section id="contact" class="py3">
+  <section id="contact" class="pt3">
     <div class="banner phuket-2">
       <h1 class="heading-2 pt3">Contact Us</h1>
     </div>
 
     <div class="container">
+      <div class="container-narrow pt3">
+        <p class='lead text-center'>Please feel free to visit our project any time.  We would be happy to show you around for an inspection and answer your questions. </p>
+        <p class='lead text-center'>
+          Or if you have any queries or would just like some more information, please get in touch with us via phone, email or the Line app.
+        </p>
+      </div>
       <div class="contact-top">
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="location-outline"></ion-icon>
@@ -66,6 +72,7 @@
       <div class="contact-bottom">
         <div class="contact-formbox">
           <h4 class="subheading">Please send us a message</h4>
+          <p class='lead'>We will respond to your query shortly!</p>
           <form class="contact-form" action="./contact.php" method="post">
             <div class="input-field">
               <label for="name" class="grey-text text-darken-2">Name</label>
@@ -89,7 +96,7 @@
             </div>
             <input
               type="submit"
-              value="Send Message"
+              value="Send &rarr;"
               class="btn btn-large"
               name="submit"
             />

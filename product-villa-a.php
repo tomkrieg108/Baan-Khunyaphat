@@ -7,19 +7,19 @@
       <h1 class="heading-2 pt3">Pool Villas - Type A</h1>
     </div>
 
-    <div class="container container-narrow text-center pt2">
-      <p class="pb1">
+    <div class="container container-narrow text-center pt3">
+      <p class="pb1 lead">
       We are offering for sale 3 Bedrooms Pool Villa which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon. 
       </p>
-      <p class="pb1">
+      <p class="pb1 lead">
       We are surrounded with the best architects and interior designers to develop the concept of our resort hotel. We also have the support of The KENKOON BRAND, a contemporary furniture brand that skillfully uses teak wood, marble and steel.
       </p>
-      <p class>
+      <p class='lead'>
         Please see the picture gallery below showing the layout and design of our pool villas.
       </p>
     </div>
 
-    <div class="container pt1">
+    <div class="container">
 
       <div class="gallery">
 

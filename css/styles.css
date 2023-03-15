@@ -29,7 +29,8 @@
   --dark-color: #333;
 
   --max-width: 1200px;
-  --header-height: 80px;
+  --navbar-height: 90px;
+  --topbar-height: 40px;
 }
 
 * {
@@ -46,7 +47,7 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   body {
     font-size: 14px;
   }
@@ -61,23 +62,25 @@ ul {
 }
 
 .container {
-  width: 80%;
   max-width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
 .container-narrow {
-  width: 70%;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 1050px) {
-  container {
-    max-width: 90%;
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 85%;
   }
 }
-@media screen and (max-width: 700px) {
-  container {
-    width: 100%;
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
   }
 }
 
@@ -92,19 +95,19 @@ ul {
 .heading-1 {
   font-weight: 600;
   font-size: 3.5rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
   margin-bottom: 1.5rem;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .heading-1 {
     font-size: 2.7rem;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .heading-1 {
     font-size: 2.3rem;
-    line-height: 1.8rem;
+    line-height: 2.5rem;
     margin-bottom: 1.4rem;
   } 
 }
@@ -112,47 +115,61 @@ ul {
 .heading-2 {
   font-weight: 600;
   font-size: 1.8rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .heading-2 {
-    font-size: 1.5rem;
-    line-height: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
   }
 }
 
 .heading-3 {
-  font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
   margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .heading-3 {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
   }
 }
 
 .subheading {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .lead {
   font-weight: 400;
-  font-size: 1.05rem;
-  line-height: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .lead {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-bottom: 1.4rem;
+  }
 }
 
 .text-center {
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .text-center {
+    text-align: left;
+  }
 }
 
 /* ------------------------------------------------------ 
@@ -280,7 +297,7 @@ ul {
 }
 
 /* ------------------------------------------------------ 
- NAVBAR
+ Header and NAVBAR
 ------------------------------------------------------  */
 
 #header {
@@ -290,19 +307,41 @@ ul {
   right: 0;
   z-index: 10;
   background-color: var(--header-color);
-  border-bottom: 2px solid var(--primary-color);
+  box-shadow: 0 2px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-bar {
+  height: var(--topbar-height);
+  background-color: var(--header-color-dk2);
+  color: white;
+}
+
+.top-bar .container {
+  height: 100%;
+}
+
+.top-bar .contact-info{
+  height: 100%;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar a {
+  color: white;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: var(--header-height);
+  height: var(--navbar-height);
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  height: 75px;
+  width: 75px;
   display: block;
   background-color: transparent;
 }
@@ -333,7 +372,7 @@ ul {
   height: 100%;
   padding: 0 0.8rem;
   color: var(--dark-color);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 600;
   transition: all 0.2s ease-in;
 }
@@ -422,7 +461,6 @@ ul {
   /* Without important, transform: translateX(100%); in the media query will
   take effect since it comes later in the file  */
   transform: translateX(0) !important;
-  /* transform: translateX(0); */
 }
 
 /* ------------------------------------------------------ 
@@ -438,7 +476,7 @@ ul {
   transition: 0.5s;
 }
 
-/* todo - isn't needed because there's a 'hero-conent' class that acts as an overlay that can be darkened */
+/* todo - maybe isn't needed because there's a 'hero-conent' class that acts as an overlay that can be darkened */
 .slider-container::before {
   content: "";
   position: absolute;
@@ -496,7 +534,8 @@ ul {
 
 .hero-content {
   position: absolute;
-  width: 70%;
+  width: 80%;
+  max-width: 800px;
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -536,13 +575,13 @@ ul {
   padding-left: 7px;
 }
 
-/* @media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 1080px) {
   .hero-content {
     width: 80%;
   }
 } */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .hero-content {
     position: absolute;
     top: 0;
@@ -571,15 +610,15 @@ ul {
  HOME - SECTION 1 (INTRO)
 ------------------------------------------------------  */
 #home-section1 {
-  padding: 3rem 0;
+  padding-top: 5rem;
+  padding-bottom: 3.5rem;
   background-color: var(--secondary-color);
 }
 
 .intro {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: 3fr 2fr;
-  gap: 3rem;
+  column-gap: 3rem;
 }
 
 .intro-text a {
@@ -590,13 +629,21 @@ ul {
  HOME - SECTION 2 (FEATURES)
 ------------------------------------------------------  */
 #home-section2 {
-  padding: 3rem 0;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
   background-color: var(--light-color);
 }
 
 #home-section2 .heading-3 {
   text-align: center;
   padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1080px) {
+  #home-section2 .heading-3 {
+    text-align: left;
+    padding-bottom: 1.5rem;
+  }
 }
 
 .features {
@@ -613,6 +660,21 @@ ul {
   margin-bottom: 0.5rem;
   padding: 0.8rem;
   border-radius: 50%;
+}
+
+.icon-big {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.icon-med {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.icon-small {
+  height: 1.2rem;
+  width: 1.2rem;
 }
 
 /* ------------------------------------------------------ 
@@ -706,9 +768,6 @@ ul {
 /* ------------------------------------------------------ 
  PROFILE
 ------------------------------------------------------  */
-#company-profile-content {
-  padding: 4rem 0;
-}
 
 .profile-content {
   display: grid;
@@ -748,9 +807,10 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   padding: 1.5rem;
-  border: 1px solid var(--med-color);
+  /* border: 1px solid var(--med-color); */
+  box-shadow: 0 2px 14px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  width: 400px;
+  width: 500px;
 }
 
 .contact-form {
@@ -785,13 +845,15 @@ ul {
 }
 
 .contact-formbox .input-field textarea {
-  height: 90px;
+  height: 100px;
 }
 
 .contact-mapbox iframe {
-  height: 400px;
-  width: 400px;
-  border: 1px solid var(--med-color);
+  height: 450px;
+  width: 450px;
+  border: none;
+  /* border: 1px solid var(--med-color); */
+  box-shadow: 0 2px 14px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -858,31 +920,53 @@ ul {
  FOOTER
 ------------------------------------------------------  */
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 170px;
+.footer-top {
+  padding: 2rem 0;
+  /* padding-bottom: 0.5rem; */
   background-color: var(--header-color);
   color: var(--dark-color);
 }
 
-.footer > p {
-  font-weight: 500;
-  margin-bottom: 1rem;
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+  }
+}
+
+.footer .contact,
+.footer .connect,
+.footer .logo
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .logo img {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
 }
 
 .footer .social {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 0.8rem;
 }
 
-.footer .social > * {
+/* .footer .social > * {
   margin: 0 10px;
-}
+} */
 
 .social i,
 .contact-info i {
@@ -890,7 +974,7 @@ ul {
 }
 
 .social a:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .social .line-icon {
@@ -900,9 +984,12 @@ ul {
 }
 
 .footer .copywrite {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 400;
-  padding-top: 15px;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+  background-color: var(--header-color-dk2);
 }
 
 /* ------------------------------------------------------ 
@@ -910,7 +997,7 @@ ul {
 ------------------------------------------------------  */
 
 /* Responsive Nav */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .btn-mobile-nav {
     display: inline-block;
     z-index: 100;
@@ -930,7 +1017,7 @@ ul {
     position: fixed;
     /* need to undo the 100% setting */
     height: auto;
-    top: var(--header-height);
+    top: var(--navbar-height);
     bottom: 0;
     right: 0;
     transform: translateX(100%);
@@ -990,26 +1077,26 @@ ul {
 }
 
 /* home - intro */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .intro {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 /* home - Feature icons  and contact */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .features {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .profile-content {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1019,7 +1106,7 @@ ul {
 }
 
 /* home - Feature icons  and contact */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .contact-top,
   .contact-bottom {
     grid-template-columns: repeat(1, 1fr);
@@ -1028,7 +1115,7 @@ ul {
 }
 
 /* Photo gallery */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }

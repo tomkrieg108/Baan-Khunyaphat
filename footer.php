@@ -1,23 +1,53 @@
 
 <footer class="footer">
-  <p>Connect With Us</p>
-  <div class="social">
-    <a href="https://www.facebook.com/Preechaluck" target="_blank"
-      ><i class="fab fa-facebook fa-2x"></i
-    ></a>
-    <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
-    <a href="images/L_gainfriends_qr.png"
-      data-lightbox="qr-code"
-      data-title="Please use this QR code to connect with us on the LINE App.">
-      <div class="line-icon">
-        <img src="images/LINE_Brand_icon.png" alt="" class="responsive-img">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="connect">
+        <h3 class='subheading'>Connect With Us</h3>
+        <div class="social">
+          <a href="https://www.facebook.com/Preechaluck" target="_blank">
+            <!-- <i class="fab fa-facebook fa-2x"></i> -->
+            <ion-icon name="logo-facebook" class='icon-big'></ion-icon>
+          </a>
+          <a href="#">
+            <!-- <i class="fa-brands fa-tiktok fa-2x"></i> -->
+            <ion-icon name="logo-tiktok" class='icon-big'></ion-icon>
+          </a>
+          <a href="images/L_gainfriends_qr.png"
+            data-lightbox="qr-code"
+            data-title="Please use this QR code to connect with us on the LINE App.">
+            <div class="line-icon">
+              <img src="images/LINE_Brand_icon.png" alt="" class="responsive-img">
+            </div>
+          </a> 
+        </div>
       </div>
-    </a> 
+
+      <div class="contact">
+        <h3 class='subheading'>Contact Info</h3>
+        <div class='pb0'>
+          <ion-icon class="icon-small pr0" name="mail-outline"></ion-icon>
+          <inline class="lead">baankhunyaphatphuket@gmail.com</inline>
+        </div>
+        <div>
+          <ion-icon class="icon-small pr0" name="call-outline"></ion-icon>
+          <inline class="lead">(+66) 076313123</inline>
+        </div>
+      </div>
+      
+      <div class='logo'>
+        <img src="images/logo/Logo-400.png" alt="LOGO" class="nav-logo" />
+      </div>
+
+    </div>
   </div>
+  
   <p class="copywrite">
     Copyright &copy; <?php echo date("Y"); ?> - Baan Khunyaphat Villa and
     Residences
   </p>
+
 </footer>
 
 <!-- Nav Used in all pages => can go in footer.php -->

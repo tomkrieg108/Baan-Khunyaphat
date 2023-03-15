@@ -10,21 +10,21 @@
 
     <!-- <div id="test" class="test-red">
     </div> -->
-  <section id="company-profile-content">
+  <section id="company-profile-content" class='pt1 pb2'>
     <div class="container">
       <h3 class="heading-3">About Our Company</h3>  
       <div class="profile-content">
         <div class="profile-content-text">
-          <p class="py0">
+          <p class="py0 lead">
             Baan Khunyaphat Villas & Residences Co., Ltd. was established in
             2021, based on the concept of "Your new way of living".
           </p>
-          <p class="py0">
+          <p class="py0 lead">
             Our houses are designed to meet the needs of people of all ages,
             while giving them the freedom to customize the living space from the
             existing designs and infrastructure according to their own needs.
           </p>
-          <p class="py0">
+          <p class="py0 lead">
             In addition, environmental technologies such as solar cell systems
             have been introduced, and we provide installation services to
             customers interested these systems.

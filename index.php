@@ -24,11 +24,11 @@
     <div class="hero-content">
       <h3 class = "heading-2">Baan Khunyaphat Villas and Residences</h3>
       <h1 class = "heading-1">Your new way of living</h1>
-      <p class="heading-3">Offering high quality, affordable properties for sale in Phuket</p>
+      <p class="heading-3">High quality, affordable villas and houses in Phuket</p>
 
       <div class="hero-buttons">
-        <a id="btn-discover-more" class="btn" href="#home-section1">Learn More  &darr;</a>    
-        <a class="btn btn-outline" href="contact.php">Arrange Visit  &rarr;</a>  
+        <a id="btn-discover-more" class="btn" href="#home-section1">Learn More &darr;</a>    
+        <a class="btn btn-outline" href="contact.php">Visit Us &rarr;</a>  
       </div>
     </div>
   </section>
@@ -43,7 +43,7 @@
             We are pleased to announce that Baan Khunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.   The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
           </p>
 
-          <p class="pb1">
+          <p class="lead pb1">
             The island, nicknamed the pearl of the Andaman sea, provides modern services and an international airport. It is adorned with beautiful beaches, large mountains lush tropical vegetation. Our project will be situated near popular attractions such as Naiyang beach, Layan beach and Robinson Shopping Mall.
           </p>
         </div>

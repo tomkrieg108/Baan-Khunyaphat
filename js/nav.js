@@ -1,8 +1,6 @@
 "use strict";
 
 let sideMenuActive = false;
-// let activeTopDropDown = null;
-// let activeSideDropDowns = [];
 let activeDropdown = null;
 
 ////////////////////////////////
@@ -16,7 +14,7 @@ const navList = document.querySelector(".nav-list");
 
 const hideDropdown = function () {
   if (activeDropdown) {
-    console.log("closing: ", activeDropdown);
+    // console.log("closing: ", activeDropdown);
     activeDropdown.classList.remove("dropdown-active");
     activeDropdown.style.maxHeight = null;
     activeDropdown = null;
@@ -27,12 +25,12 @@ const hideDropdown = function () {
 const processTopNavClick = function (link, dropdown) {
   let show = true;
   if (activeDropdown) {
-    console.log("closing dropdown: ", activeDropdown);
+    // console.log("closing dropdown: ", activeDropdown);
     show = dropdown !== activeDropdown;
     hideDropdown();
   }
   if (!show) return;
-  console.log("opening top dropdown: ", dropdown);
+  // console.log("opening top dropdown: ", dropdown);
   dropdown.classList.add("dropdown-active");
   const linkRect = link.getBoundingClientRect();
   dropdown.style.top = linkRect.bottom;
@@ -42,39 +40,26 @@ const processTopNavClick = function (link, dropdown) {
 };
 
 const processSideNavClick = function (link, dropdown) {
-  // const idx = activeSideDropDowns.findIndex((el) => el === dropdown);
-  // if (idx !== -1) {
-  //   //this dropdown is active already - hide it
-  //   console.log("closing side dropdown: ", dropdown);
-  //   dropdown.classList.remove("dropdown-active");
-  //   dropdown.style.maxHeight = null;
-  //   activeSideDropDowns.splice(idx);
-  //   return;
-  // }
   let show = true;
   if (activeDropdown) {
-    console.log("closing dropdown: ", activeDropdown);
+    // console.log("closing dropdown: ", activeDropdown);
     show = dropdown !== activeDropdown;
     hideDropdown();
   }
   if (!show) return;
-  console.log("opening side dropdown: ", dropdown);
+  // console.log("opening side dropdown: ", dropdown);
   dropdown.classList.add("dropdown-active");
   dropdown.style.maxHeight = dropdown.scrollHeight + "px";
-  // const linkRect = link.getBoundingClientRect();
-  // dropdown.style.top = linkRect.bottom;
-  // dropdown.style.right = 0;
-  // activeSideDropDowns.push(dropdown);
   activeDropdown = dropdown;
 };
 
 navList.addEventListener("click", function (e) {
-  console.log("clicked on navlist");
+  // console.log("clicked on navlist");
   const link = e.target.closest(".activate-dropdown");
   if (!link) return;
   const dropdown = document.getElementById(link.dataset.target);
   // if (!dropdown) return;
-  console.log("clicked on activate dropdown link");
+  // console.log("clicked on activate dropdown link");
   if (sideMenuActive) {
     processSideNavClick(link, dropdown);
   } else {
@@ -84,7 +69,7 @@ navList.addEventListener("click", function (e) {
 
 body.addEventListener("click", function (e) {
   if (e.target.closest(".activate-dropdown")) return;
-  console.log("clicked on body");
+  // console.log("clicked on body");
   hideDropdown();
 });
 
@@ -100,15 +85,9 @@ btnMobileNav.addEventListener("click", function (e) {
     navList.style.transition = "transform 0.3s ease-in-out";
     navList.classList.add("sidenav-open");
     sideMenuActive = true;
-    // causes page to go back to top, remains fixed if screen size increased
-    // so that side nav disappears
-    //main.style.position = "fixed";
-    // nav.classList.add("responsive");
   } else {
     navList.classList.remove("sidenav-open");
     navList.style.transition = null;
-    // main.style.position = "static";
-    // nav.classList.remove("responsive");
   }
 });
 
