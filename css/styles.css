@@ -48,8 +48,8 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
-  body {
-    font-size: 14px;
+  html {
+    font-size: 15px;
   }
 }
 
@@ -275,27 +275,57 @@ ul {
 /* ------------------------------------------------------ 
  BANNER
 ------------------------------------------------------  */
-
 .banner {
-  height: 32vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* This causes it to mess up a bit */
+  /* background-attachment: fixed; */
+  overflow: hidden;
+
+  min-height: 280px;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-.phuket-1 {
-  background: url("../images/16-9-opt/9.jpg") no-repeat center center/cover;
-}
-.phuket-2 {
-  background: url("../images/16-9-opt/5.jpg") no-repeat center center/cover;
-}
-.phuket-3 {
-  background: url("../images/16-9-opt/7.jpg") no-repeat center center/cover;
-}
-.banner h1 {
   color: #fff;
 }
 
+.banner h1 {
+  font-weight: 300;
+}
+
+.detached-home-bg {
+  background-image: linear-gradient(rgba(32, 134, 107, 0.80), rgba(32, 134, 107, 0.80)), url('../images/16-9-opt/House_side.jpg');
+  /* background: url("../images/16-9-opt/House_side.jpg") no-repeat center center/cover; */
+  /* background-attachment: fixed; */
+  /* background-size: 100% auto; */
+}
+
+.villa-a-bg {
+  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/16-9-opt/FN02.jpg');
+}
+.villa-b-bg {
+  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/16-9-opt/FN002.jpg');
+}
+
+.phuket-6 {
+  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/6.jpg");
+}
+/* no-repeat center center/cover  */
+.phuket-7 {
+  background: url("../images/16-9-opt/7.jpg") no-repeat center center/cover;
+}
+.phuket-9 {
+  background: url("../images/16-9-opt/9.jpg") no-repeat center center/cover;
+}
+.phuket-10 {
+  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/10.jpg");
+}
+.phuket-12 {
+  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/12.jpg");
+}
 /* ------------------------------------------------------ 
  Header and NAVBAR
 ------------------------------------------------------  */
@@ -470,9 +500,11 @@ ul {
   position: relative;
   overflow: hidden;
   height: 100vh;
-  width: 100%;
+  /*width: 100% has no effect ?? */
+  width: 100%; 
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   transition: 0.5s;
 }
 
@@ -773,7 +805,8 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 3rem;
+  column-gap: 3rem;
+  /* gap: 3rem; */
 }
 /* ------------------------------------------------------ 
  CONTACT
@@ -921,7 +954,7 @@ ul {
 ------------------------------------------------------  */
 
 .footer-top {
-  padding: 2rem 0;
+  padding: 3rem 0;
   /* padding-bottom: 0.5rem; */
   background-color: var(--header-color);
   color: var(--dark-color);

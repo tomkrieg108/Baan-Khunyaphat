@@ -3,8 +3,8 @@
 
 <main>
   <section id="reference" class="py3">
-    <div class="banner phuket-3">
-      <h1 class="heading-2 pt3">Pool Villas - Type A</h1>
+    <div class="banner villa-a-bg">
+      <h1 class="heading-1 pt3">Pool Villas - Type A</h1>
     </div>
 
     <div class="container container-narrow text-center pt3">

@@ -3,8 +3,8 @@
 
 <main>
   <section id="company-profile-banner" class="py3">
-    <div class="banner phuket-1">
-      <h1 class="heading-2 pt3">Company Profile</h1>
+    <div class="banner phuket-9">
+      <h1 class="heading-1 pt3">Company Profile</h1>
     </div>
   </section>
 

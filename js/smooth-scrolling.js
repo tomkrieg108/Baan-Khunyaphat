@@ -15,3 +15,6 @@ btnDiscover.addEventListener("click", function (e) {
     behavior: "smooth",
   });
 });
+
+// can also use section1.scrollIntoView({behaviour: smooth}); //for modern browsers only
+//should do the same thing

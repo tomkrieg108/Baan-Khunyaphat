@@ -3,10 +3,11 @@
 
 <main>
   <section id="reference" class="py3">
-    <div class="banner phuket-3">
-      <h1 class="heading-2 pt3">Detached Home</h1>
-    </div>
-
+    
+    <div class="banner detached-home-bg">
+      <h1 class="heading-1 pt3">Detached Home</h1>
+    </div>  
+    
     <div class="container container-narrow text-center pt3">
       <p class="pb1 lead">
       We are offering for sale 3 Bedrooms detached homes which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon. 

@@ -37,7 +37,7 @@
     <div class="container">
       <div class="intro">
         <div class="intro-text">
-          <h3 class = "heading-3">Welcome to Baan Khunyaphat Villas and Residences</h3>
+          <h2 class = "heading-2">Welcome to Baan Khunyaphat Villas and Residences</h2>
 
           <p class="lead">
             We are pleased to announce that Baan Khunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.   The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
@@ -57,7 +57,7 @@
   </section>
   <section id="home-section2">
     <div class="container">
-      <h3 class="heading-3">Features of our property projects</h3>
+      <h2 class="heading-2 pb2">Features of our property projects</h2>
       <div class="features">
         <div class="feature">
           <ion-icon class="feature-icon" name="swap-horizontal-outline"></ion-icon>

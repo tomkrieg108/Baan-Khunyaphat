@@ -36,8 +36,9 @@
 
 <main>
   <section id="contact" class="pt3">
-    <div class="banner phuket-2">
-      <h1 class="heading-2 pt3">Contact Us</h1>
+    
+    <div class="banner phuket-7">
+      <h1 class="heading-1 pt3">Contact Us</h1>
     </div>
 
     <div class="container">
