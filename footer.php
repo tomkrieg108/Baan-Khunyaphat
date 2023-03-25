@@ -32,7 +32,7 @@
         </div>
         <div>
           <ion-icon class="icon-small pr0" name="call-outline"></ion-icon>
-          <inline class="lead">(+66) 076313123</inline>
+          <inline class="lead">092 312 1333</inline>
         </div>
       </div>
       

@@ -73,7 +73,7 @@
       <div class="contact-bottom">
         <div class="contact-formbox">
           <h4 class="subheading">Please send us a message</h4>
-          <p class='lead'>We will respond to your query shortly!</p>
+          <p class='lead'>Feel free to ask us any questions about our project.  We will respond to your queries shortly!</p>
           <form class="contact-form" action="./contact.php" method="post">
             <div class="input-field">
               <label for="name" class="grey-text text-darken-2">Name</label>
@@ -139,15 +139,6 @@
       openModal('$modal_title', '$modal_message' );
     </script>
     EOL;  
-
-
-    // echo <<<EOL
-    // <script>
-    //   document.addEventListener('DOMContentLoaded', function (e) {
-    //     openModal('$modal_title', '$modal_message' );
-    //   });
-    // </script>
-    // EOL;  
   }
 ?>
 

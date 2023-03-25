@@ -11,7 +11,7 @@
       ></div>
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/FN001.jpg')"
+        style="background-image: url('images/16-9-opt/FN01.jpg')"
       ></div>
 
       <div
