@@ -62,7 +62,7 @@
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="call-outline"></ion-icon>
           <h4 class="subheading">Telephone</h4>
-          <p class="lead">(+66) 076313123</p>
+          <p class="lead">092 312 1333</p>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@
                href="images/original/1RGB1.png"
                data-lightbox="ref"
                data-title="Living Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -30,7 +30,7 @@
                href="images/original/1RGB2.png"
                data-lightbox="ref"
                data-title="Bathroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -43,7 +43,7 @@
                href="images/original/1RGB3.png"
                data-lightbox="ref"
                data-title="Bedroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -56,7 +56,7 @@
                href="images/original/1RGB4.jpg.png"
                data-lightbox="ref"
                data-title="Living Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -69,7 +69,7 @@
                href="images/original/1RGB5.jpg.png"
                data-lightbox="ref"
                data-title="Bedroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -82,7 +82,7 @@
                href="images/original/1RGB6.jpg.png"
                data-lightbox="ref"
                data-title="Kitchen"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -95,7 +95,7 @@
                href="images/original/1RGB7.jpg.png"
                data-lightbox="ref"
                data-title="Dining Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -108,7 +108,7 @@
                href="images/original/House_front.png"
                data-lightbox="ref"
                data-title="Front of house"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -121,7 +121,7 @@
                href="images/original/House_side.png"
                data-lightbox="ref"
                data-title="Side of house"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>

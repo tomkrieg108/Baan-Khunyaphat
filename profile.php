@@ -4,7 +4,7 @@
 <main>
   <section id="company-profile-banner" class="py3">
     <div class="banner phuket-9">
-      <h1 class="heading-1 pt3">Company Profile</h1>
+      <h1 class="heading-1 pt3"><?php echo $company_profile['banner-title']?></h1>
     </div>
   </section>
 
@@ -12,22 +12,17 @@
     </div> -->
   <section id="company-profile-content" class='pt1 pb2'>
     <div class="container">
-      <h3 class="heading-3">About Our Company</h3>  
+      <h3 class="heading-3"><?php echo $company_profile['title']?></h3>  
       <div class="profile-content">
         <div class="profile-content-text">
           <p class="py0 lead">
-            Baan Khunyaphat Villas & Residences Co., Ltd. was established in
-            2021, based on the concept of "Your new way of living".
+            <?php echo $company_profile['text-p1']?>
           </p>
           <p class="py0 lead">
-            Our houses are designed to meet the needs of people of all ages,
-            while giving them the freedom to customize the living space from the
-            existing designs and infrastructure according to their own needs.
+            <?php echo $company_profile['text-p2']?>
           </p>
           <p class="py0 lead">
-            In addition, environmental technologies such as solar cell systems
-            have been introduced, and we provide installation services to
-            customers interested these systems.
+            <?php echo $company_profile['text-p3']?>
           </p>
         </div>
         <div class="profile-content-image">

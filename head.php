@@ -10,7 +10,7 @@
     <meta name="keywords" content="phuket, property development, property sales, villas, residences, eco-friendly, solar power" />
 
     <!-- Prevent page indexing - delete before deployment!!! -->
-    <meta name="robots" content="NOINDEX, NOFOLLOW" />
+    <!-- <meta name="robots" content="NOINDEX, NOFOLLOW" /> -->
 
     <!-- favicons -->
     <link rel="icon" href="images/logo/favicon.png" />

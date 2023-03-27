@@ -5,18 +5,21 @@
   <section id="reference" class="py3">
     <div class="banner villa-b-bg">
       <h1 class="heading-1 pt3"> <?php echo $villa_b['banner-title']?></h1>
+      <!-- <div class="container container-narrow">
+        <h1 class="heading-1 pt3"><?php echo $villa_b['banner-title']?></h1>
+        <h4 class='subheading'><?php echo $villa_b['main-text-p1']?></h4>
+      </div> -->
     </div>
 
     <div class="container container-narrow text-center pt3">
       <p class="pb1 lead">
         <?php echo $villa_b['main-text-p1']?>
-      <!-- We are offering for sale 3 Bedrooms Pool Villa which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon.  -->
       </p>
       <p class="pb1 lead">
-      <!-- We are surrounded with the best architects and interior designers to develop the concept of our resort hotel. We also have the support of The KENKOON BRAND, a contemporary furniture brand that skillfully uses teak wood, marble and steel. -->
+        <?php echo $villa_b['main-text-p2']?>
       </p>
       <p class ='lead'>
-        <!-- Please see the picture gallery below showing the layout and design of our pool villas. -->
+        <?php echo $villa_b['main-text-p3']?>
       </p>
     </div>
 
@@ -27,12 +30,12 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/ED_002.jpg" alt="Pool Villa Type B - 3D layout from above" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa 2 layout</p>
+            <p>Pool Villa B layout</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/ED_002.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B Schematic"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -40,12 +43,12 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN001.jpg" alt="Pool Villa Type B" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa</p>
+            <p>Pool Villa B</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN001.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -53,12 +56,12 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN002.jpg" alt="Pool Villa Type B" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa</p>
+            <p>Pool Villa B</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN002.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -66,12 +69,12 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN003.jpg" alt="Pool Villa Type B" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa</p>
+            <p>Pool Villa B</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN003.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -79,12 +82,12 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN004.jpg" alt="Pool Villa" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa</p>
+            <p>Pool Villa B</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN004.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>

@@ -6,18 +6,21 @@
     
     <div class="banner detached-home-bg">
       <h1 class="heading-1 pt3"><?php echo $detached_house['banner-title']?></h1>
+      <!-- <div class="container container-narrow">
+        <h1 class="heading-1 pt3"><?php echo $detached_house['banner-title']?></h1>
+        <h4 class='subheading'><?php echo $detached_house['main-text-p1']?></h4>
+      </div> -->
     </div>  
     
     <div class="container container-narrow text-center pt3">
       <p class="pb1 lead">
         <?php echo $detached_house['main-text-p1']?>
-      <!-- We are offering for sale 3 Bedrooms detached homes which are all fully furnished, fully fitted kitchen, and luxurious package furniture by Kenkoon.  -->
       </p>
       <p class="pb1 lead">
-      <!-- We are surrounded with the best architects and interior designers to develop the concept of our resort hotel. We also have the support of The KENKOON BRAND, a contemporary furniture brand that skillfully uses teak wood, marble and steel. -->
+        <?php echo $detached_house['main-text-p2']?>
       </p>
       <p class='lead'>
-        <!-- Please see the picture gallery below showing the layout and design of our homes. -->
+        <?php echo $detached_house['main-text-p3']?>
       </p>
     </div>
 
@@ -33,7 +36,7 @@
                href="images/original/House_front.png"
                data-lightbox="phase123"
                data-title="Front of house"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -46,7 +49,7 @@
                href="images/original/House_side.png"
                data-lightbox="phase123"
                data-title="Side of house"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -59,7 +62,7 @@
                href="images/original/1RGB1.png"
                data-lightbox="phase123"
                data-title="Living Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -72,7 +75,7 @@
                href="images/original/1RGB2.png"
                data-lightbox="phase123"
                data-title="Bathroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -85,7 +88,7 @@
                href="images/original/1RGB3.png"
                data-lightbox="phase123"
                data-title="Bedroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -98,7 +101,7 @@
                href="images/original/1RGB4.jpg.png"
                data-lightbox="phase123"
                data-title="Living Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -111,7 +114,7 @@
                href="images/original/1RGB5.jpg.png"
                data-lightbox="phase123"
                data-title="Bedroom"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -124,7 +127,7 @@
                href="images/original/1RGB6.jpg.png"
                data-lightbox="phase123"
                data-title="Kitchen"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>
@@ -137,7 +140,7 @@
                href="images/original/1RGB7.jpg.png"
                data-lightbox="phase123"
                data-title="Dining Room"
-              >View
+              >View Gallery
             </a>
           </figcaption>
         </figure>

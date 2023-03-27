@@ -16,7 +16,7 @@
 
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/FN002.jpg')"
+        style="background-image: url('images/16-9-opt/FN001.jpg')"
       ></div>
 
     <div class="dots"></div>
