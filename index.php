@@ -22,9 +22,9 @@
     <div class="dots"></div>
 
     <div class="hero-content">
-      <h3 class = "heading-2">Baan Khunyaphat Villas and Residences</h3>
+      <h3 class = "heading-2">Baankhunyaphat Villas and Residences</h3>
       <h1 class = "heading-1">Your new way of living</h1>
-      <p class="heading-3">High quality, affordable villas and houses in Phuket</p>
+      <p class="heading-3">High quality, affordable properties in Phuket</p>
 
       <div class="hero-buttons">
         <a id="btn-discover-more" class="btn" href="#home-section1">Learn More &darr;</a>    
@@ -37,10 +37,10 @@
     <div class="container">
       <div class="intro">
         <div class="intro-text">
-          <h2 class = "heading-2">Welcome to Baan Khunyaphat Villas and Residences</h2>
+          <h2 class = "heading-2">Welcome to Baankhunyaphat Villas and Residences</h2>
 
           <p class="lead">
-            We are pleased to announce that Baan Khunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.   The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
+            We are pleased to announce that Baankhunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.  The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
           </p>
 
           <p class="lead pb1">

@@ -120,9 +120,6 @@
   <button class="btn__close-modal">&times;</button>
   <h3 class="modal__title">Title</h3>
   <p class="modal__body">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
-    necessitatibus distinctio rerum cupiditate quidem exercitationem quia
-    mollitia, cumque doloribus tempora.
   </p>
 </div>
 <div class="overlay hidden"></div>

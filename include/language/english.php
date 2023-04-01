@@ -50,7 +50,7 @@ $company_profile = [
 
   'title' => 'About Our Company',
 
-  'text-p1' => 'Baan Khunyaphat Villas & Residences Co., Ltd. was established in 2021, based on the concept of "Your new way of living".',
+  'text-p1' => 'Baankhunyaphat Villas & Residences Co., Ltd. was established in 2021, based on the concept of "Your new way of living".',
 
   'text-p2' => 'Our houses and villas are designed to meet the needs of people of all ages, while giving them the freedom to customize the living space from the existing designs and infrastructure according to their own needs.',
 

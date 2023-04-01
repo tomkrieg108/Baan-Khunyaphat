@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Baan Khunyaphat Villas and Residences. Developing high quality, adaptable and eco-friendly properties for sale in Phuket, at an affordable price." />
+    <meta name="description" content="Baankhunyaphat Villas and Residences.  High quality, addordable properties for sale in Phuket." />
     <meta name="keywords" content="phuket, property development, property sales, villas, residences, eco-friendly, solar power" />
 
     <!-- Prevent page indexing - delete before deployment!!! -->
@@ -33,6 +33,6 @@
     <link type="text/css" rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Baan Khunyaphat Villas and Residences</title>
+    <title>Baankhunyaphat Villas and Residences</title>
   </head>
   <body>
