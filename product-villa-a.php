@@ -92,6 +92,84 @@
           </figcaption>
         </figure>
 
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-BATH_02-01-16-9.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-BATH_02-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-BER_02-01-16-9.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-BER_02-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-BR_02-01-16-9.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-BR_02-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-DN_02-01-16-9.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-DN_02-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-KC_02-01-16-9.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-KC_02-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/16-9-opt/villa-A-LV_01-01.jpg" alt="Pool Villa Type A" />
+          <figcaption class="gallery-caption">
+            <p>Pool Villa A</p>
+            <a class="btn btn-small" 
+               href="images/16-9-opt/villa-A-LV_01-01.jpg"
+               data-lightbox="pool-villa-a"
+               data-title="Pool Villa A"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
       </div>
     </div>
   </section>
