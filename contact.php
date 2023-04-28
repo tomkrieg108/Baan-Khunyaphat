@@ -1,3 +1,7 @@
+
+<?php require_once './head.php' ?>
+<?php require_once './nav.php' ?>
+
 <?php
   
   $modal_message = null ;
@@ -8,60 +12,57 @@
     $email = strip_tags(trim($_POST["email"]));
     $message = strip_tags(trim($_POST["message"]));
 
-    // $recipient = "tomkrieg108@gmail.com";
-    $recipient = "baankhunyaphatphuket@gmail.com";
+    $recipient = "tomkrieg108@gmail.com";
+    // $recipient = "baankhunyaphatphuket@gmail.com";
     $subject = "Message received from $name via website";
     $content = $message;
     $header = "From: $name";
 
     $email_valid = filter_var($email,FILTER_VALIDATE_EMAIL); 
     if(!$email_valid) {
-      $modal_title = "Invalid email address";
-      $modal_message = 'Please enter a valid email address and try again.';
+      $modal_title = $modal['invalid-email'];
+      $modal_message = $modal['invalid-email-text'];
     }
     else {
      if(mail($recipient, $subject, $content)) {
-        $modal_title = "Message sent";
-        $modal_message = 'Thankyou for you message.  We will be in touch to help with your query as soon as possible. ';
+        $modal_title = $modal['message-sent'];
+        $modal_message = $modal['message-sent-text'];
      }else {
-      $modal_title = "Message not sent";
-      $modal_message = 'Sorry, but there seemed to be a problem sending your message.  Please contact us directly by phone or email and we will be in touch with you soon';
+      $modal_title = $modal['error'];
+      $modal_message = $modal['error-text'];
      }
     }
   }
 ?>
 
-<?php require_once './head.php' ?>
-<?php require_once './nav.php' ?>
+
 
 <main>
   <section id="contact" class="pt3">
     
     <div class="banner phuket-7">
-      <h1 class="heading-1 pt3">Contact Us</h1>
+      <h1 class="heading-1 pt3"><?php echo $contact['banner-title']?></h1>
     </div>
 
     <div class="container">
       <div class="container-narrow pt3">
-        <p class='lead text-center'>Please feel free to visit our project any time.  We would be happy to show you around for an inspection and answer your questions. </p>
-        <p class='lead text-center'>
-          Or if you have any queries or would just like some more information, please get in touch with us via phone, email or the Line app.
-        </p>
+        <p class='lead text-center'><?php echo $contact['text-p1']?></p>
+        <p class='lead text-center'><?php echo $contact['text-p2']?></p>
       </div>
       <div class="contact-top">
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="location-outline"></ion-icon>
-          <h4 class="subheading">Location</h4>
-          <p class="lead">5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110</p>
+          <h4 class="subheading"><?php echo $contact['location']?></h4>
+          <p class="lead"><?php echo $contact['address']?></p>
         </div>
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
-          <h4 class="subheading">Email</h4>
+          <h4 class="subheading"><?php echo $contact['email']?></h4>
           <p class="lead">baankhunyaphatphuket@gmail.com</p>
         </div>
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="call-outline"></ion-icon>
-          <h4 class="subheading">Telephone</h4>
+          <h4 class="subheading"><?php echo $contact['phone']?></h4>
           <p class="lead">092 312 1333</p>
         </div>
       </div>
@@ -72,22 +73,20 @@
     <div class="container">
       <div class="contact-bottom">
         <div class="contact-formbox">
-          <h4 class="subheading">Please send us a message</h4>
-          <p class='lead'>Feel free to ask us any questions about our project.  We will respond to your queries shortly!</p>
+          <h4 class="subheading"><?php echo $contact['form-title']?></h4>
+          <p class='lead'><?php echo $contact['form-text']?></p>
           <form class="contact-form" action="./contact.php" method="post">
             <div class="input-field">
-              <label for="name" class="grey-text text-darken-2">Name</label>
+              <label for="name" class="grey-text text-darken-2"><?php echo $contact['name']?></label>
               <input type="text" id="name" name="fname" />
             </div>
             <div class="input-field">
-              <label for="email" class="grey-text text-darken-2"
-                >Email</label
+              <label for="email" class="grey-text text-darken-2"><?php echo $contact['email']?></label
               >
               <input type="email" id="email" name="email" />
             </div>
             <div class="input-field">
-              <label for="message" class="grey-text text-darken-2"
-                >Message</label
+              <label for="message" class="grey-text text-darken-2"><?php echo $contact['message']?></label
               >
               <textarea
                 id="message"
@@ -97,7 +96,7 @@
             </div>
             <input
               type="submit"
-              value="Send &rarr;"
+              value=<?php echo $contact['btn-text']?>
               class="btn btn-large"
               name="submit"
             />

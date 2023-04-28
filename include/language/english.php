@@ -89,4 +89,53 @@ $company_profile = [
   'text-p3' => 'In addition, environmental technologies such as solar cell systems have been introduced, and we provide installation services to customers interested these systems.'
 ];
 
+$contact = [
+
+  'banner-title' => 'Contact Us',
+
+  'text-p1' => 'Please feel free to visit our project between 9am and 5pm. We would be happy to show you around for an inspection and answer your questions.',
+
+  'text-p2' => 'If you have any queries or would like some more information, please get in touch with us via phone, email or the Line app.',
+
+  'form-title' => 'Please send us a message',
+
+  'form-text' => 'Feel free to ask us any questions about our project. We will get back to you shortly!',
+
+  'location' => 'Location',
+
+  'address' => '5/113 Moo. 2 Tambon Thepkrasattri Thalang, Phuket 83110',
+
+  'email' => 'Email',
+
+  'name' => 'Name',
+
+  'message' => 'Message',
+
+  'phone' => 'Telephone',
+
+  'btn-text' => 'Send Message',
+];
+
+$modal = [
+  'invalid-email' => 'Invalid email address',
+
+  'invalid-email-text' => 'Please enter a valid email address and try again',
+
+  'message-sent' => 'Message Sent',
+
+  'message-sent-text' => 'Thankyou for your message.  We will reply as soon as possible.',
+
+  'error' => 'Message was not sent',
+
+  'error-text' => 'Sorry, but there was a problem sending your message.  Please contact us directly by phone or email.',
+];
+
+$footer = [
+
+  'connect' => 'Connect With Us',
+
+  'contact' => 'Contact Info',
+
+];
+
 ?>

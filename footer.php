@@ -4,7 +4,7 @@
   <div class="footer-top">
     <div class="container">
       <div class="connect">
-        <h3 class='subheading'>Connect With Us</h3>
+        <h3 class='subheading'><?php echo $footer['connect']?></h3>
         <div class="social">
           <a href="https://www.facebook.com/Preechaluck" target="_blank">
             <!-- <i class="fab fa-facebook fa-2x"></i> -->
@@ -25,7 +25,7 @@
       </div>
 
       <div class="contact">
-        <h3 class='subheading'>Contact Info</h3>
+        <h3 class='subheading'><?php echo $footer['contact']?></h3>
         <div class='pb0'>
           <ion-icon class="icon-small pr0" name="mail-outline"></ion-icon>
           <inline class="lead">baankhunyaphatphuket@gmail.com</inline>

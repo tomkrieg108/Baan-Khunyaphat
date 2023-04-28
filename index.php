@@ -60,7 +60,7 @@
       <h2 class="heading-2 pb2"><?php echo $home['features-title']?></h2>
       <div class="features">
         <div class="feature">
-          <ion-icon class="feature-icon" name="swap-horizontal-outline"></ion-icon>
+          <ion-icon class="feature-icon" name="ribbon-outline"></ion-icon>
           <h3 class = "subheading"><?php echo $home['feature1-title']?></h3>
           <p class="lead"><?php echo $home['feature1-text']?></p>
         </div>
