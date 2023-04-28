@@ -37,20 +37,20 @@
     <div class="container">
       <div class="intro">
         <div class="intro-text">
-          <h2 class = "heading-2">Welcome to Baankhunyaphat Villas and Residences</h2>
+          <h2 class = "heading-2"><?php echo $home['title']?></h2>
 
           <p class="lead">
-            We are pleased to announce that Baankhunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket.  The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.   
+            <?php echo $home['main-text-p1']?> 
           </p>
 
           <p class="lead pb1">
-            The island, nicknamed the pearl of the Andaman sea, provides modern services and an international airport. It is adorned with beautiful beaches, large mountains lush tropical vegetation. Our project will be situated near popular attractions such as Naiyang beach, Layan beach and Robinson Shopping Mall.
+            <?php echo $home['main-text-p2']?> 
           </p>
         </div>
         <div class="intro-actions">
-          <h3 class = "heading-3">Virtual Tour</h3>
-          <p class="lead">Take a virtual 3D tour of one of our properties to view the interior layout, floorplan and measurments. Gain a glimpse of the picturesque surrounds.</p>
-          <a class="btn btn-large" href="https://mp.my360int.com/tour/baan-khunyaphat" target="_blank">Take Tour</a>
+          <h3 class = "heading-3"><?php echo $home['virtual-tour-title']?></h3>
+          <p class="lead"><?php echo $home['virtual-tour-p1']?></p>
+          <a class="btn btn-large" href="https://mp.my360int.com/tour/baan-khunyaphat" target="_blank"><?php echo $home['virtual-tour-btn']?></a>
         </div>
       </div>
     </div>

@@ -14,6 +14,20 @@ $nav = [
   'contact' => 'Contact Us'
 ];
 
+$home = [
+  'title' => 'Welcome to Baankhunyaphat Villas and Residences',
+
+  'main-text-p1' => 'We are pleased to announce that Baankhunyaphat Villas & Residences will be located in the Thalang district of the island of Phuket. The district of Thalang is a globally renowned health, wellness and sports destination welcoming tourists all year round.',
+
+  'main-text-p2' => 'The island, nicknamed the pearl of the Andaman sea, provides modern services and an international airport. It is adorned with beautiful beaches, large mountains lush tropical vegetation. Our project will be situated near popular attractions such as Naiyang beach, Layan beach and Robinson Shopping Mall.',
+
+  'virtual-tour-title' => 'Virtual Tour',
+
+  'virtual-tour-p1' => 'Take a virtual 3D tour of one of our properties to view the interior layout, floorplan and measurments. Gain a glimpse of the picturesque surrounds.',
+
+  'virtual-tour-btn' => 'Take Tour'
+];
+
 $detached_house = [
 
   'banner-title' => 'Detached House',
