@@ -25,7 +25,25 @@ $home = [
 
   'virtual-tour-p1' => 'Take a virtual 3D tour of one of our properties to view the interior layout, floorplan and measurments. Gain a glimpse of the picturesque surrounds.',
 
-  'virtual-tour-btn' => 'Take Tour'
+  'virtual-tour-btn' => 'Take Tour',
+
+  'features-title' => 'Features of our property projects',
+
+  'feature1-title' => 'Trustworthy',
+
+  'feature1-text' => 'Every house in each project has a 5-year structural warranty, so you can be assured of the quality of the homes in our project.',
+
+  'feature2-title' => 'Eco Friendly',
+
+  'feature2-text' => 'Our houses are designed for the future. Use clean energy from solar cells and save on energy costs.',
+
+  'feature3-title' => 'Idyllic Location',
+
+  'feature3-text' => 'Located in a tranquil and scenic area, but also offering quick and easy access to all ammenities.',
+
+  'feature4-title' => 'High Quality',
+
+  'feature4-text' => 'From material selection, construction, fittings and furnishings, we make quality our priority.',
 ];
 
 $detached_house = [

@@ -57,27 +57,27 @@
   </section>
   <section id="home-section2">
     <div class="container">
-      <h2 class="heading-2 pb2">Features of our property projects</h2>
+      <h2 class="heading-2 pb2"><?php echo $home['features-title']?></h2>
       <div class="features">
         <div class="feature">
           <ion-icon class="feature-icon" name="swap-horizontal-outline"></ion-icon>
-          <h3 class = "subheading">Adaptable</h3>
-          <p class="lead">Freedom to live your way.  Adapt the property layout according to your own needs and preferences.</p>
+          <h3 class = "subheading"><?php echo $home['feature1-title']?></h3>
+          <p class="lead"><?php echo $home['feature1-text']?></p>
         </div>
         <div class="feature">
           <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
-          <h3 class = "subheading">Eco Friendly</h3>
-          <p class="lead">Our houses are designed for the future. Use clean energy from solar cells and save on energy costs.</p>
+          <h3 class = "subheading"><?php echo $home['feature2-title']?></h3>
+          <p class="lead"><?php echo $home['feature2-text']?></p>
         </div>
         <div class="feature">
           <ion-icon class="feature-icon" name="image-outline"></ion-icon>
-          <h3 class = "subheading">Idyllic Location</h3>
-          <p class="lead">Located in a tranquil and scenic area, but also offering quick and easy access to all ammenities.</p>
+          <h3 class = "subheading"><?php echo $home['feature3-title']?></h3>
+          <p class="lead"><?php echo $home['feature3-text']?></p>
         </div>
         <div class="feature">
           <ion-icon class="feature-icon" name="star-outline"></ion-icon>
-          <h3 class = "subheading">High Quality</h3>
-          <p class="lead">From material selection, construction, fittings and furnishings, we make quality our priority.</p>
+          <h3 class = "subheading"><?php echo $home['feature4-title']?></h3>
+          <p class="lead"><?php echo $home['feature4-text']?></p>
         </div>
       </div>
     </div>

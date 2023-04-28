@@ -687,15 +687,15 @@ ul {
   background-color: var(--light-color);
 }
 
-#home-section2 .heading-3 {
+#home-section2 .heading-2 {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1080px) {
-  #home-section2 .heading-3 {
+  #home-section2 .heading-2 {
     text-align: left;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.7rem;
   }
 }
 
