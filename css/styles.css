@@ -96,7 +96,7 @@ ul {
 }
 
 .developer-img {
-  width: 200px;
+  width: 220px;
   height: auto;
 }
 
@@ -267,6 +267,9 @@ ul {
 }
 .pb3 {
   padding-bottom: 3rem !important;
+}
+.pb4 {
+  padding-bottom: 4rem !important;
 }
 
 .pl0 {

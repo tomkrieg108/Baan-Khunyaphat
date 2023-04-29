@@ -10,7 +10,7 @@
 
     <!-- <div id="test" class="test-red">
     </div> -->
-  <section id="developer-content" class='pt1 pb3'>
+  <section id="developer-content" class='pt1 pb4'>
     <div class="container">
       <h3 class="heading-3"><?php echo $developer['banner-title']?></h3>  
       <div class="profile-content">
