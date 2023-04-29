@@ -1,18 +1,5 @@
 <header id="header">
   
-  <!-- <div class="top-bar">
-    <div class="container">
-      <div class="contact-info">
-        <ion-icon name="call-outline" class='icon-small px0'></ion-icon>
-        <p class='pr1'>(+66) 076313123</p>
-        <ion-icon name="mail-outline" class='icon-small px0'></ion-icon>
-        <p>baankhunyaphatphuket@gmail.com</p>
-        <a href="https://www.facebook.com/Preechaluck" target="_blank""><ion-icon name="logo-facebook" class='icon-small pl2'></ion-icon></a>
-        <a href=""><ion-icon name="logo-tiktok" class='icon-small px0'></ion-icon></a>
-      </div>
-    </div>
-  </div> -->
-  
   <div class="container">
     <nav class="nav">
       <a href="index.php">
@@ -51,7 +38,7 @@
               <a href="profile.php"><?php echo $nav['profile']?></a>
             </li>
             <li class="nav-link nav-link-dropdown">
-              <a href="#"><?php echo $nav['developer']?></a>
+              <a href="developer.php"><?php echo $nav['developer']?></a>
             </li>
           </ul>
         </li>

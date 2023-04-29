@@ -34,7 +34,7 @@
             <a class="btn btn-small" 
                href="images/16-9-opt/ED_1.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A Schematic"
+               data-title="Pool Villa A - layout"
               >View Gallery
             </a>
           </figcaption>
@@ -43,11 +43,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN01.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Front view</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Front view"
               >View Gallery
             </a>
           </figcaption>
@@ -56,11 +56,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN02.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Side view 1</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN02.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Side view 1"
               >View Gallery
             </a>
           </figcaption>
@@ -69,11 +69,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN03.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Side view 2</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN03.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Side view 2"
               >View Gallery
             </a>
           </figcaption>
@@ -82,11 +82,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/FN04.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Side view 3</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/FN04.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Side view 3"
               >View Gallery
             </a>
           </figcaption>
@@ -95,11 +95,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-BATH_02-01-16-9.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Bathroom</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-BATH_02-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - bathroom"
               >View Gallery
             </a>
           </figcaption>
@@ -108,11 +108,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-BER_02-01-16-9.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Bedroom</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-BER_02-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - bedroom"
               >View Gallery
             </a>
           </figcaption>
@@ -121,11 +121,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-BR_02-01-16-9.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Master bedroom</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-BR_02-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - master bedroom"
               >View Gallery
             </a>
           </figcaption>
@@ -134,11 +134,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-DN_02-01-16-9.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Dining room & kitchen</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-DN_02-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Dining room with attached kitchen"
               >View Gallery
             </a>
           </figcaption>
@@ -147,11 +147,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-KC_02-01-16-9.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Dining room & kitchen</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-KC_02-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - Dining room with attached kitchen"
               >View Gallery
             </a>
           </figcaption>
@@ -160,11 +160,11 @@
         <figure class="gallery-item">
           <img src="images/16-9-opt/villa-A-LV_01-01.jpg" alt="Pool Villa Type A" />
           <figcaption class="gallery-caption">
-            <p>Pool Villa A</p>
+            <p>Living room</p>
             <a class="btn btn-small" 
                href="images/16-9-opt/villa-A-LV_01-01.jpg"
                data-lightbox="pool-villa-a"
-               data-title="Pool Villa A"
+               data-title="Pool Villa A - living room"
               >View Gallery
             </a>
           </figcaption>

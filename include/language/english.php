@@ -89,6 +89,14 @@ $company_profile = [
   'text-p3' => 'In addition, environmental technologies such as solar cell systems have been introduced, and we provide installation services to customers interested these systems.'
 ];
 
+$developer = [
+  'banner-title' => 'Our Developer',
+
+  'name' => 'Preechaluck Deederm (Keith)',
+
+  'experience' => 'Experience: Developer Baan Khunyaphat Residences Phase 1-3',
+];
+
 $contact = [
 
   'banner-title' => 'Contact Us',

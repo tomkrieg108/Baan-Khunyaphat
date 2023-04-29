@@ -1,8 +1,7 @@
 
-<?php require_once './head.php' ?>
-<?php require_once './nav.php' ?>
-
 <?php
+
+  require_once 'include/language/select.php';
   
   $modal_message = null ;
   $modal_title = '';
@@ -12,8 +11,8 @@
     $email = strip_tags(trim($_POST["email"]));
     $message = strip_tags(trim($_POST["message"]));
 
-    $recipient = "tomkrieg108@gmail.com";
-    // $recipient = "baankhunyaphatphuket@gmail.com";
+    // $recipient = "tomkrieg108@gmail.com";
+    $recipient = "baankhunyaphatphuket@gmail.com";
     $subject = "Message received from $name via website";
     $content = $message;
     $header = "From: $name";
@@ -35,6 +34,8 @@
   }
 ?>
 
+<?php require_once './head.php' ?>
+<?php require_once './nav.php' ?>
 
 
 <main>
