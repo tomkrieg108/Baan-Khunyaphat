@@ -11,7 +11,6 @@
     $email = strip_tags(trim($_POST["email"]));
     $message = strip_tags(trim($_POST["message"]));
 
-    // $recipient = "tomkrieg108@gmail.com";
     $recipient = "baankhunyaphatphuket@gmail.com";
     $subject = "Message received from $name via website";
     $content = $message;
