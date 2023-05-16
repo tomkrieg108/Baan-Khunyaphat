@@ -4,15 +4,15 @@
 // MODAL
 //The modal box
 const modal = document.querySelector(".modal");
-console.log("modal: ", modal);
+// console.log("modal: ", modal);
 
 //Button on the modal (x) to close the modal
 const btnCloseModal = document.querySelector(".btn__close-modal");
-console.log("close btn: ", btnCloseModal);
+// console.log("close btn: ", btnCloseModal);
 
 //Document overlay visible when modal is showing
 const overlay = document.querySelector(".overlay");
-console.log("overlay: ", overlay);
+// console.log("overlay: ", overlay);
 
 const openModal = function (title, body) {
   if (body === "") return;
