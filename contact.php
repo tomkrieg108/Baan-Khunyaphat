@@ -40,7 +40,7 @@
 <main>
   <section id="contact" class="pt3">
     
-    <div class="banner phuket-7">
+    <div class="banner phuket-2">
       <h1 class="heading-1 pt3"><?php echo $contact['banner-title']?></h1>
     </div>
 

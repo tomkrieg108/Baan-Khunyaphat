@@ -338,35 +338,39 @@ ul {
 }
 
 .detached-home-bg {
-  background-image: linear-gradient(rgba(32, 134, 107, 0.80), rgba(32, 134, 107, 0.80)), url('../images/16-9-opt/House_side.jpg');
+  background-image: linear-gradient(rgba(32, 134, 107, 0.80), rgba(32, 134, 107, 0.80)), url('../images/house/lg/side-1.jpg');
   /* background: url("../images/16-9-opt/House_side.jpg") no-repeat center center/cover; */
   /* background-attachment: fixed; */
   /* background-size: 100% auto; */
 }
 
 .villa-a-bg {
-  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/16-9-opt/FN02.jpg');
+  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/villa-a/lg/side-1.jpg');
 }
 .villa-b-bg {
-  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/16-9-opt/FN002.jpg');
+  background-image: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url('../images/villa-b/lg/side-1.jpg');
 }
 
-.phuket-6 {
-  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/6.jpg");
+
+.phuket-1 {
+  background: url("../images/banner/1.jpg") no-repeat center center/cover;
 }
-/* no-repeat center center/cover  */
-.phuket-7 {
-  background: url("../images/16-9-opt/7.jpg") no-repeat center center/cover;
+.phuket-2 {
+  background: url("../images/banner/2.jpg") no-repeat center center/cover;
 }
-.phuket-9 {
-  background: url("../images/16-9-opt/9.jpg") no-repeat center center/cover;
+.phuket-3 {
+  background: url("../images/banner/3.jpg") no-repeat center center/cover;
 }
-.phuket-10 {
-  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/10.jpg");
+.phuket-4 {
+  background: url("../images/banner/4.jpg") no-repeat center center/cover;
 }
-.phuket-12 {
-  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/16-9-opt/12.jpg");
+.phuket-5 {
+  background: url("../images/banner/5.jpg") no-repeat center center/cover;
 }
+
+/* .phuket-5 {
+  background: linear-gradient(rgba(32, 134, 107, 0.8), rgba(32, 134, 107, 0.8)), url("../images/banner/5.jpg");
+} */
 /* ------------------------------------------------------ 
  Header and NAVBAR
 ------------------------------------------------------  */

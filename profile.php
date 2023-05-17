@@ -3,7 +3,7 @@
 
 <main>
   <section id="company-profile-banner" class="py3">
-    <div class="banner phuket-9">
+    <div class="banner phuket-1">
       <h1 class="heading-1 pt3"><?php echo $company_profile['banner-title']?></h1>
     </div>
   </section>
@@ -26,7 +26,7 @@
           </p>
         </div>
         <div class="profile-content-image">
-          <img class="responsive-img" src="images/16-9-opt/House_front.jpg" alt="House front">
+          <img class="responsive-img" src="images/house/sm-16-9/front.jpg" alt="House front">
         </div>
       </div>
       

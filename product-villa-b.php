@@ -28,11 +28,11 @@
       <div class="gallery">
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/ED_002.jpg" alt="Pool Villa Type B - 3D layout from above" />
+          <img src="images/villa-b/sm-16-9/layout.jpg" alt="Pool Villa Type B - 3D layout from above" />
           <figcaption class="gallery-caption">
             <p>Pool Villa B layout</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/ED_002.jpg"
+               href="images/villa-b/lg/layout.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - layout"
               >View Gallery
@@ -41,11 +41,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/FN001.jpg" alt="Pool Villa Type B" />
+          <img src="images/villa-b/sm-16-9/front.jpg" alt="Pool Villa B - front view" />
           <figcaption class="gallery-caption">
             <p>Front view</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/FN001.jpg"
+               href="images/villa-b/lg/front.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - front view"
               >View Gallery
@@ -54,11 +54,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/FN002.jpg" alt="Pool Villa Type B" />
+          <img src="images/villa-b/sm-16-9/side-1.jpg" alt="Pool Villa B - side view 1" />
           <figcaption class="gallery-caption">
             <p>Side view 1</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/FN002.jpg"
+               href="images/villa-b/lg/side-1.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - side view 1"
               >View Gallery
@@ -67,11 +67,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/FN003.jpg" alt="Pool Villa Type B" />
+          <img src="images/villa-b/sm-16-9/side-2.jpg" alt="Pool Villa B - side view 2" />
           <figcaption class="gallery-caption">
             <p>Side view 2</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/FN003.jpg"
+               href="images/villa-b/lg/side-2.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - side view 2"
               >View Gallery
@@ -80,11 +80,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/FN004.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/side-3.jpg" alt="Pool Villa B - side view 3" />
           <figcaption class="gallery-caption">
             <p>Side view 3</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/FN004.jpg"
+               href="images/villa-b/lg/side-3.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - side view 3"
               >View Gallery
@@ -93,11 +93,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-KN1-01.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/living-1.jpg" alt="Pool Villa B - living room" />
           <figcaption class="gallery-caption">
             <p>Living room</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-KN1-01.jpg"
+               href="images/villa-b/lg/living-1.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - living room"
               >View Gallery
@@ -106,11 +106,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-KN2-01.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/living-2.jpg" alt="Pool Villa B - living room" />
           <figcaption class="gallery-caption">
             <p>Living room</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-KN2-01.jpg"
+               href="images/villa-b/lg/living-2.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - living room"
               >View Gallery
@@ -119,24 +119,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-NN1-01-16-9.jpg" alt="Pool Villa" />
-          <figcaption class="gallery-caption">
-            <p>Beedroom</p>
-            <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-NN1-01.jpg"
-               data-lightbox="pool-villa-b"
-               data-title="Pool Villa B - bedroom"
-              >View Gallery
-            </a>
-          </figcaption>
-        </figure>
-
-        <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-NN2-02-16-9.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/bedroom-1.jpg" alt="Pool Villa B - bedroom" />
           <figcaption class="gallery-caption">
             <p>Bedroom</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-NN2-02.jpg"
+               href="images/villa-b/lg/bedroom-1.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - bedroom"
               >View Gallery
@@ -145,11 +132,24 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-NN3-02-16-9.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/bedroom-2.jpg" alt="Pool Villa B - bedroom" />
+          <figcaption class="gallery-caption">
+            <p>Bedroom</p>
+            <a class="btn btn-small" 
+               href="images/villa-b/lg/bedroom-2.jpg"
+               data-lightbox="pool-villa-b"
+               data-title="Pool Villa B - bedroom"
+              >View Gallery
+            </a>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/villa-b/sm-16-9/bedroom-3.jpg" alt="Pool Villa B - master bedroom" />
           <figcaption class="gallery-caption">
             <p>Master bedroom</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-NN3-02.jpg"
+               href="images/villa-b/lg/bedroom-3.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - master bedroom"
               >View Gallery
@@ -158,11 +158,11 @@
         </figure>
 
         <figure class="gallery-item">
-          <img src="images/16-9-opt/villa-B-NN4-02-16-9.jpg" alt="Pool Villa" />
+          <img src="images/villa-b/sm-16-9/bathroom-1.jpg" alt="Pool Villa B - living room" />
           <figcaption class="gallery-caption">
             <p>Bathroom</p>
             <a class="btn btn-small" 
-               href="images/16-9-opt/villa-B-NN4-02.jpg"
+               href="images/villa-b/lg/bathroom-1.jpg"
                data-lightbox="pool-villa-b"
                data-title="Pool Villa B - bathroom"
               >View Gallery

@@ -37,7 +37,7 @@
       </div>
       
       <div class='logo'>
-        <img src="images/logo/Logo-400.png" alt="LOGO" class="nav-logo" />
+        <img src="images/logo/Logo-200.png" alt="LOGO" class="nav-logo" />
       </div>
 
     </div>

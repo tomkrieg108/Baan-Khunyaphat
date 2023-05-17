@@ -3,7 +3,7 @@
 
 <main>
   <section id="developer-banner" class="py3">
-    <div class="banner phuket-9">
+    <div class="banner phuket-1">
       <h1 class="heading-1 pt3"><?php echo $developer['banner-title']?></h1>
     </div>
   </section>
@@ -24,7 +24,7 @@
           <img class="developer-img" src="images/developer.jpg" alt="Developer profile picture">
         </div>
         <div class="profile-content-image">
-        <img class="responsive-img" src="images/16-9-opt/FN001.jpg" alt="Pool Villa B - House front">
+        <img class="responsive-img" src="images/villa-b/sm-16-9/front.jpg" alt="Pool Villa B - House front">
         </div>
       </div>
       

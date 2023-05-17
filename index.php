@@ -7,16 +7,16 @@
     <div class="slider-container">
       <div
         class="slide active"
-        style="background-image: url('images/16-9-opt/House_front.jpg')"
+        style="background-image: url('images/house/xl/front.jpg')"
       ></div>
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/FN01.jpg')"
+        style="background-image: url('images/villa-a/xl/front.jpg')"
       ></div>
 
       <div
         class="slide"
-        style="background-image: url('images/16-9-opt/FN001.jpg')"
+        style="background-image: url('images/villa-b/xl/front.jpg')"
       ></div>
 
     <div class="dots"></div>
