@@ -11,18 +11,27 @@
     $email = strip_tags(trim($_POST["email"]));
     $message = strip_tags(trim($_POST["message"]));
 
+    $content = "<strong>Received from website contact form </strong><br><br>";
+    $content .= "<strong>Name</strong><br>$name<br><br>";
+    $content .= "<strong>Email</strong><br>$email<br><br>";
+    $content .= "<strong>Message</strong><br>$message<br><br>";
+   
+    //$recipient = "tomkrieg108@gmail.com";
     $recipient = "baankhunyaphatphuket@gmail.com";
+    //$recipient = "info@baankhunyaphatresidences.com";
+    // $recipient = "info@baankhunyaphat.com";
     $subject = "Message received from $name via website";
-    $content = $message;
-    $header = "From: $name";
-
+    $header =  "Content-Type: text/html;\r\n";
+    $header .= "From: $Name <$email>";
+    //$header = "From: $name";
     $email_valid = filter_var($email,FILTER_VALIDATE_EMAIL); 
+
     if(!$email_valid) {
       $modal_title = $modal['invalid-email'];
       $modal_message = $modal['invalid-email-text'];
     }
     else {
-     if(mail($recipient, $subject, $content)) {
+     if(mail($recipient, $subject, $content, $header)) {
         $modal_title = $modal['message-sent'];
         $modal_message = $modal['message-sent-text'];
      }else {
@@ -58,7 +67,8 @@
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
           <h4 class="subheading"><?php echo $contact['email']?></h4>
-          <p class="lead">baankhunyaphatphuket@gmail.com</p>
+          <!-- <p class="lead">baankhunyaphatphuket@gmail.com</p> -->
+          <p class="lead">info@baankhunyaphat.com</p>
         </div>
         <div class="contact-iconbox">
           <ion-icon class="feature-icon" name="call-outline"></ion-icon>
